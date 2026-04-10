@@ -3,7 +3,7 @@ const MENU_DATA = [
         title: "Extra Toppings",
         type: "3",
         labels: ["S", "M", "L"],
-        image: "images/extra-toppings.png",
+        image: "extra-toppings.png",
         items: [
             { name: "Veggies", prices: ["20", "40", "60"] },
             { name: "Cheese", prices: ["30", "50", "70"] },
