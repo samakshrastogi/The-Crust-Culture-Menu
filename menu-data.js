@@ -53,7 +53,7 @@ const MENU_DATA = [
             { name: "Classic Indian Pizza", prices: ["149", "249", "329"] },
             { name: "Black Lover Loaded", prices: ["149", "229", "349"] },
             { name: "Farmhouse Pizza", prices: ["199", "289", "369"] },
-            { name: "Extravaganza Pizza", prices: ["199", "289", "349"] },
+            { name: "Extravaganza Pizza", prices: ["199", "289", "369"] },
             { name: "Paradise Pizza", prices: ["229", "349", "419"] }
         ]
     },
