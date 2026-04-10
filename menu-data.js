@@ -86,17 +86,6 @@ const MENU_DATA = [
         ]
     },
     {
-        title: "Garlic Breads & Sides 🥖",
-        type: "1",
-        labels: [""],
-        image: "garlic-bread.png",
-        items: [
-            { name: "Garlic Bread", prices: ["99"] },
-            { name: "Garlic Bread Stuffed", prices: ["149"] },
-            { name: "Paneer Tikka Stuffed", prices: ["169"] }
-        ]
-    },
-    {
         title: "Quick Wraps 🌯",
         type: "1",
         labels: [""],
