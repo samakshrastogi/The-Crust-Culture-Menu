@@ -190,7 +190,7 @@ const MENU_DATA = [
             { name: "Cheese Burger", prices: ["79"] },
             { name: "Paneer Burger", prices: ["79"] },
             { name: "Double Cheese", prices: ["99"] },
-            { name: "Cheese & Paneer", prices: ["99"] },
+            { name: "Cheese & Paneer", prices: ["119"] },
             { name: "Pav Bhaji(2 Pav)", prices: ["99"] },
             { name: "Extra Pav", prices: ["25"] }
         ]
