@@ -317,18 +317,18 @@ const MENU_DATA = [
     items: [
         { 
             name: "Peanut Butter Protein Shake", 
-            prices: ["149"],
+            prices: ["199"],
             toppings: "Milk, Peanut Butter, Banana, Honey, Ice"
         },
         { 
             name: "Chocolate Protein Blast", 
-            prices: ["159"],
+            prices: ["169"],
             toppings: "Milk, Chocolate Syrup, Cocoa Powder, Banana, Peanut Butter"
         },
         { 
             name: "Dry Fruit Energy Shake", 
             prices: ["169"],
-            toppings: "Milk, Almonds, Cashews, Dates, Pistachio, Honey"
+            toppings: "Milk, Almonds, Cashews, Dates, Pistachio, Honey, Anjeer, Walnut, Seeds(Chia, Alsi, Pumpkin)"
         },
         { 
             name: "Oreo Protein Shake", 
