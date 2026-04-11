@@ -19,28 +19,19 @@
             font-family: Poppins, sans-serif;
         }
 
-        /* FONT */
         .cinzel {
             font-family: 'Cinzel', serif;
         }
 
         .bg-luxury {
-            background: linear-gradient(180deg, #030303 0%, #0a0a0a 100%);
+            background: linear-gradient(180deg, #050505, #070707);
         }
 
-        /* GOLD TEXT */
         .gold {
-            /*background: linear-gradient(90deg, #facc15, #fff3b0, #eab308); */
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        /* BACKGROUND (PDF SAFE) */
-        .bg-luxury {
-            background: linear-gradient(180deg, #050505 0%, #070707 100%);
-        }
-
-        /* PAGE */
         .page {
             width: 900px;
             height: 1200px;
@@ -49,80 +40,55 @@
             background: transparent;
         }
 
-        /* BORDER FRAME */
         .page::after {
             content: "";
             position: absolute;
             inset: 0;
             border: 4px solid #facc15;
-            pointer-events: none;
         }
 
-        /* INNER BORDER */
-        .page .inner-border {
-            position: absolute;
-            inset: 20px;
-            border: 1px solid #facc15;
-            pointer-events: none;
-        }
-
-        /* PREMIUM RIBBON */
         .ribbon {
             background: linear-gradient(90deg, #facc15, #fde68a, #facc15);
-            padding: 0 28px 12px 28px;
+            padding: 0 28px 12px;
             font-weight: bold;
             letter-spacing: 3px;
             color: #000;
             margin: 0 auto;
-            border-radius: 4px;
         }
 
-        /* PRICE */
         .price-col {
             width: 60px;
             text-align: center;
         }
 
-        /* SECTION */
         .section {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             gap: 40px;
         }
 
-        /* TITLE GLOW (SAFE) */
         h1 {
             text-shadow:
                 0 0 15px rgba(250, 204, 21, 0.6),
                 0 0 30px rgba(250, 204, 21, 0.3);
         }
 
-        /* SUBTLE DIVIDER */
-        .divider {
-            height: 1px;
-            background: linear-gradient(to right, transparent, rgba(250, 204, 21, 0.25), transparent);
-            margin: 10px 0;
+        .menu-glow {
+            display: none;
         }
 
-        /* IMAGE STYLE */
         .food-img {
             transform: scale(1.08);
-            transition: transform 0.4s ease;
+            transition: 0.4s;
         }
 
-        /* HOVER (ONLY SCREEN) */
         @media screen {
             .section:hover .food-img {
                 transform: scale(1.15);
             }
         }
 
-        /* DISABLE PROBLEMATIC EFFECTS IN PDF */
-        .menu-glow {
-            display: none;
-        }
-
-        /* PRINT FIX */
         * {
             -webkit-print-color-adjust: exact;
             print-color-adjust: exact;
@@ -139,11 +105,9 @@
         <div class="absolute inset-0 border-4 border-yellow-400"></div>
         <div class="absolute inset-5 border border-yellow-400"></div>
 
-        <!-- ORNAMENTS -->
         <img src="header.png" class="absolute top-6 w-[420px] opacity-90">
         <img src="header.png" class="absolute top-[480px] w-[260px] opacity-90">
 
-        <!-- GLOW -->
         <div class="menu-glow"></div>
 
         <div class="flex flex-col items-center text-center z-10">
@@ -172,7 +136,6 @@
 
         </div>
 
-        <!-- QR SECTION (IMPROVED) -->
         <div class="absolute bottom-20 flex gap-12 px-8 py-5 rounded-2xl 
             border border-yellow-400/20 
             bg-black/40 
@@ -193,7 +156,6 @@
             </div>
 
         </div>
-
     </div>
 
     <div id="pages"></div>
@@ -207,78 +169,106 @@
     <script>
         const pagesContainer = document.getElementById("pages");
 
+        // ✅ RENDER SECTION
         function renderSection(sec, reverse) {
+
             const labelsRow = sec.labels && sec.labels[0] !== "" ? `
-<div class="flex justify-end mt-2">
-    ${sec.labels.map(l => `
-        <div class="price-col text-xs text-yellow-300 tracking-widest">
-            ${l}
-        </div>
-    `).join("")}
-</div>
-` : "";
+                <div class="flex justify-end mt-2">
+                    ${sec.labels.map(l => `<div class="price-col text-xs text-yellow-300">${l}</div>`).join("")}
+                </div>` : "";
 
             const items = sec.items.map(i => `
-<div class="flex items-center py-1">
-    <div class="flex items-center w-full">
-        <span>${i.name.toUpperCase()}</span>
-        <div class="flex-1 h-[1px] bg-gray-600 mx-3"></div>
-    </div>
-    <div class="flex">
-        ${i.prices.map(p => `<div class="price-col text-yellow-400">${p}</div>`).join("")}
-    </div>
-</div>
-`).join("");
+                <div class="grid grid-cols-[1fr_auto] items-start gap-x-3 py-1">
+                    <div class="min-w-0">
+                        <div class="flex items-center">
+                            <span class="shrink-0">${i.name.toUpperCase()}</span>
+                            <div class="flex-1 h-[1px] bg-gray-600 mx-3"></div>
+                        </div>
+
+                        ${i.toppings ? `
+                            <div class="text-[11px] text-gray-400 ml-1 mt-[2px] italic tracking-wide whitespace-normal break-words leading-snug pr-2">
+                                ${i.toppings}
+                            </div>
+                        ` : ""}
+                    </div>
+
+                    <div class="flex pt-[1px]">
+                        ${i.prices.map(p => `<div class="price-col text-yellow-400">${p}</div>`).join("")}
+                    </div>
+                </div>
+            `).join("");
 
             const text = `
-<div class="flex flex-col w-[520px]">
-<div class="ribbon text-center">${sec.title}</div>
-${labelsRow}
-${items}
-</div>
-`;
+                <div class="flex flex-col w-[520px]">
+                    <div class="ribbon text-center">${sec.title}</div>
+                    ${labelsRow}
+                    ${items}
+                </div>
+            `;
 
             const image = `
-<div class="relative w-[250px] h-[250px] rounded-full border border-yellow-400 overflow-hidden bg-black flex items-center justify-center shadow-[0_0_20px_rgba(250,204,21,0.25)]">
-
-    <img src="${sec.image}" 
-         class="food-img w-full h-full object-cover transition-transform duration-500">
-
-</div>
-`;
+                <div class="relative w-[250px] h-[250px] rounded-full border border-yellow-400 overflow-hidden bg-black flex items-center justify-center">
+                    <img src="${sec.image}" class="food-img w-full h-full object-cover">
+                </div>
+            `;
 
             return reverse ? image + text : text + image;
         }
 
-        function buildPage(sections) {
+        // ✅ BUILD PAGE
+        function buildPage(sections, isLast = false) {
             let el = document.createElement("div");
             el.className = "page bg-luxury text-white";
 
             el.innerHTML = `
-<div class="absolute inset-0 border-4 border-yellow-400"></div>
-<div class="absolute inset-5 border border-yellow-400"></div>
+                <div class="absolute inset-0 border-4 border-yellow-400"></div>
 
-<div class="flex flex-col justify-between h-full py-6">
-${sections.map((s, i) => `<div class="section">${renderSection(s, i % 2)}</div>`).join("")}
-</div>
-`;
+                <div class="flex flex-col ${isLast ? 'justify-start' : 'justify-between'} h-full py-6 gap-6">
+                    ${sections.map((s, i) => `
+                        <div class="section">
+                            ${renderSection(s, i % 2)}
+                        </div>
+                    `).join("")}
+                </div>
+            `;
 
             return el;
         }
 
-        let chunk = 3;
-        for (let i = 0; i < MENU_DATA.length; i += chunk) {
-            pagesContainer.appendChild(buildPage(MENU_DATA.slice(i, i + chunk)));
+        // 🔥 PAGINATION LOGIC
+        // Cover is already fixed as page 1.
+        // Content pages rule:
+        // page 2 => 3 items, page 3 => 2 items, remaining => 3 items each.
+        const data = [...MENU_DATA];
+        const pages = [];
+
+        function takePageItems(count) {
+            const pageItems = [];
+            for (let i = 0; i < count && data.length; i++) {
+                pageItems.push(data.shift());
+            }
+            return pageItems;
         }
-        async function waitForImages() {
-            const images = document.querySelectorAll("img");
-            await Promise.all([...images].map(img => {
-                if (img.complete) return Promise.resolve();
-                return new Promise(res => {
-                    img.onload = img.onerror = res;
-                });
-            }));
+
+        const secondPageItems = takePageItems(3);
+        if (secondPageItems.length) pages.push(secondPageItems);
+
+        const thirdPageItems = takePageItems(2);
+        if (thirdPageItems.length) pages.push(thirdPageItems);
+
+        while (data.length) {
+            pages.push(takePageItems(3));
         }
+
+        // =====================
+        // RENDER
+        // =====================
+        pages.forEach((p, i) => {
+            pagesContainer.appendChild(
+                buildPage(p, i === pages.length - 1)
+            );
+        }); 
+        // PDF
         async function downloadAll() {
             const { jsPDF } = window.jspdf;
 
@@ -286,13 +276,15 @@ ${sections.map((s, i) => `<div class="section">${renderSection(s, i % 2)}</div>`
 
             let pdf = new jsPDF("p", "px", [900, 1200]);
 
-            let pages = document.querySelectorAll(".page:not(#cover)");
-            let elements = [document.getElementById("cover"), ...pages];
+            let elements = [
+                document.getElementById("cover"),
+                ...document.querySelectorAll(".page:not(#cover)")
+            ];
 
             for (let i = 0; i < elements.length; i++) {
 
                 let canvas = await html2canvas(elements[i], {
-                    scale: 3.5,
+                    scale: 3,
                     useCORS: true,
                     backgroundColor: "#050505"
                 });
@@ -301,12 +293,14 @@ ${sections.map((s, i) => `<div class="section">${renderSection(s, i % 2)}</div>`
 
                 if (i > 0) pdf.addPage([900, 1200]);
 
-                pdf.addImage(img, "JPEG", 0, 0, 900, 1200, undefined, "FAST");
+                pdf.addImage(img, "JPEG", 0, 0, 900, 1200);
             }
 
             pdf.save("The-Crust-Culture-Menu.pdf");
         }
-        document.getElementById("downloadBtn").addEventListener("click", downloadAll);
+
+        document.getElementById("downloadBtn")
+            .addEventListener("click", downloadAll);
     </script>
 
 </body>
