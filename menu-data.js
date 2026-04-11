@@ -323,5 +323,21 @@ const MENU_DATA = [
             { name: "Cold Coffee with Ice Cream", prices: ["119"] },
             { name: "Cold Drink", prices: ["MRP"] }
         ]
+    },
+    {
+    title: "Protein Shakes & Salads 💪🥗",
+    type: "1",
+    labels: [""],
+    image: "protein.png",
+    items: [
+        { name: "Peanut Butter Protein Shake", prices: ["149"] },
+        { name: "Chocolate Protein Blast", prices: ["159"] },
+        { name: "Dry Fruit Energy Shake", prices: ["169"] },
+        { name: "Oreo Protein Shake", prices: ["149"] },
+        { name: "Paneer Power Salad", prices: ["179"] },
+        { name: "Crunchy Veg Protein Salad", prices: ["169"] },
+        { name: "Corn Cheese Salad", prices: ["159"] },
+        { name: "Sprouts Protein Salad", prices: ["149"] }
+    ]
     }
 ];
