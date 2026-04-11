@@ -46,15 +46,51 @@ const MENU_DATA = [
         labels: ["S", "M", "L"],
         image: "signature.png",
         items: [
-            { name: "Yammy Veg Pizza", prices: ["129", "229", "319"] },
-            { name: "Maxican Pizza", prices: ["129", "229", "319"] },
-            { name: "Veg Loaded Pizza", prices: ["149", "269", "349"] },
-            { name: "Fresh Veggie", prices: ["149", "269", "349"] },
-            { name: "Classic Indian Pizza", prices: ["149", "249", "329"] },
-            { name: "Black Lover Loaded", prices: ["149", "229", "349"] },
-            { name: "Farmhouse Pizza", prices: ["199", "289", "369"] },
-            { name: "Extravaganza Pizza", prices: ["199", "289", "369"] },
-            { name: "Paradise Pizza", prices: ["229", "349", "419"] }
+            {
+                name: "Yammy Veg Pizza",
+                toppings: "(Golden Corn, Onion, Capsicum, Tomato, Cheese)",
+                prices: ["129", "229", "319"]
+            },
+            {
+                name: "Maxican Pizza",
+                toppings: "(Onion, Capsicum, Jalapeno, Tomato, Cheese)",
+                prices: ["129", "229", "319"]
+            },
+            {
+                name: "Veg Loaded Pizza",
+                toppings: "(Golden Corn, Tomato, Jalapeno, Mushroom, Cheese)",
+                prices: ["149", "269", "349"]
+            },
+            {
+                name: "Fresh Veggie",
+                toppings: "(Onion, Capsicum, Extra Cheese)",
+                prices: ["149", "269", "349"]
+            },
+            {
+                name: "Classic Indian Pizza",
+                toppings: "(Onion, Tomato, Golden Corn, Capsicum, Jalapeno, Cheese)",
+                prices: ["149", "249", "329"]
+            },
+            {
+                name: "Black Lover Loaded",
+                toppings: "(Black Olive, Golden Corn, Capsicum, Cheese)",
+                prices: ["149", "229", "349"]
+            },
+            {
+                name: "Farmhouse Pizza",
+                toppings: "(Onion, Capsicum, Tomato, Mushroom, Extra Cheese)",
+                prices: ["199", "289", "369"]
+            },
+            {
+                name: "Extravaganza Pizza",
+                toppings: "(Onion, Capsicum, Tomato, Mushroom, Golden Corn, Black Olive, Extra Cheese)",
+                prices: ["199", "289", "369"]
+            },
+            {
+                name: "Paradise Pizza",
+                toppings: "(Golden Corn, Black Olive, Capsicum, Red Pepper, Extra Cheese)",
+                prices: ["229", "349", "419"]
+            }
         ]
     },
     {
@@ -63,15 +99,48 @@ const MENU_DATA = [
         labels: ["S", "M", "L"],
         image: "royal-paneer.png",
         items: [
-            { name: "Paneer Capsicum", prices: ["149", "249", "319"] },
-            { name: "Paneer Onion", prices: ["149", "249", "319"] },
-            { name: "Paneer Onion Capsicum", prices: ["159", "269", "329"] },
-            { name: "Paneer Special", prices: ["169", "269", "349"] },
-            { name: "Veg + Paneer Loaded", prices: ["169", "269", "349"] },
-            { name: "Paneer Makhni", prices: ["169", "269", "349"] },
-            { name: "Pappy Paneer", prices: ["199", "299", "369"] },
-            { name: "Loaded Indi Tandoori", prices: ["199", "299", "369"] },
-            { name: "Double Paneer Premium", prices: ["229", "329", "419"] }
+            {
+                name: "Paneer Capsicum",
+                prices: ["149", "249", "319"]
+            },
+            {
+                name: "Paneer Onion",
+                prices: ["149", "249", "319"]
+            },
+            {
+                name: "Paneer Onion Capsicum",
+                prices: ["159", "269", "329"]
+            },
+            {
+                name: "Paneer Special",
+                toppings: "(Red Pepper, Onion, Capsicum, Paneer, Cheese)",
+                prices: ["169", "269", "349"]
+            },
+            {
+                name: "Veg + Paneer Loaded",
+                toppings: "(Onion, Capsicum, Golden Corn, Paneer, Cheese)",
+                prices: ["169", "269", "349"]
+            },
+            {
+                name: "Paneer Makhni",
+                toppings: "(Cheese, Capsicum, Onion, Red Pepper, Paneer Tikka)",
+                prices: ["169", "269", "349"]
+            },
+            {
+                name: "Pappy Paneer",
+                toppings: "(Capsicum, Red Pepper, Paneer, Cheese)",
+                prices: ["199", "299", "369"]
+            },
+            {
+                name: "Loaded Indi Tandoori",
+                toppings: "(Capsicum, Red Pepper, Paneer Tikka, Cheese)",
+                prices: ["199", "299", "369"]
+            },
+            {
+                name: "Double Paneer Premium",
+                toppings: "(Onion, Capsicum, Red Pepper, Double Paneer, Extra Cheese)",
+                prices: ["229", "329", "419"]
+            }
         ]
     },
     {
@@ -178,7 +247,7 @@ const MENU_DATA = [
             { name: "Cheese Corn Nuggets", prices: ["89", "149"] }
         ]
     },
-    
+
     {
         title: "Indo-Chinese Specials 🥢",
         type: "2",
