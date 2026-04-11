@@ -316,6 +316,11 @@ const MENU_DATA = [
     image: "protein.png",
     items: [
         { 
+            name: "Dry Fruit Energy Shake", 
+            prices: ["169"],
+            toppings: "Milk, Almonds, Cashews, Dates, Pistachio, Honey, Anjeer, Walnut, Seeds(Chia, Alsi, Pumpkin)"
+        },
+        { 
             name: "Peanut Butter Protein Shake", 
             prices: ["199"],
             toppings: "Milk, Peanut Butter, Banana, Honey, Ice"
@@ -325,11 +330,7 @@ const MENU_DATA = [
             prices: ["169"],
             toppings: "Milk, Chocolate Syrup, Cocoa Powder, Banana, Peanut Butter"
         },
-        { 
-            name: "Dry Fruit Energy Shake", 
-            prices: ["169"],
-            toppings: "Milk, Almonds, Cashews, Dates, Pistachio, Honey, Anjeer, Walnut, Seeds(Chia, Alsi, Pumpkin)"
-        },
+        
         { 
             name: "Oreo Protein Shake", 
             prices: ["149"],
