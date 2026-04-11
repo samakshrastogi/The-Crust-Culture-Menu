@@ -165,7 +165,49 @@
     </div>
 
     <div id="pages"></div>
+<!-- Background Color Controller -->
+<div class="fixed top-5 right-5 bg-black/80 text-white p-4 rounded-xl shadow-xl z-50 border border-yellow-500">
+    <h3 class="text-yellow-400 font-bold mb-2">Background Picker</h3>
 
+    <input 
+        type="color" 
+        id="bgPicker" 
+        value="#0D0D0D"
+        class="w-16 h-10 cursor-pointer border-none rounded"
+    >
+
+    <p class="mt-2 text-sm">
+        HEX: <span id="hexCode" class="text-yellow-300">#0D0D0D</span>
+    </p>
+
+    <p class="text-sm">
+        RGB: <span id="rgbCode" class="text-yellow-300">rgb(13, 13, 13)</span>
+    </p>
+</div>
+
+<script>
+const picker = document.getElementById("bgPicker");
+const hexCode = document.getElementById("hexCode");
+const rgbCode = document.getElementById("rgbCode");
+
+picker.addEventListener("input", function () {
+    const color = this.value;
+
+    // Change Background
+    document.body.style.background = color;
+
+    // Show HEX
+    hexCode.textContent = color;
+
+    // Convert HEX to RGB
+    const bigint = parseInt(color.slice(1), 16);
+    const r = (bigint >> 16) & 255;
+    const g = (bigint >> 8) & 255;
+    const b = bigint & 255;
+
+    rgbCode.textContent = `rgb(${r}, ${g}, ${b})`;
+});
+</script>
     <button id="downloadBtn" class="fixed bottom-10 right-10 bg-yellow-400 px-6 py-2 font-semibold">
         Download PDF
     </button>
