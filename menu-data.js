@@ -318,43 +318,43 @@ const MENU_DATA = [
         { 
             name: "Dry Fruit Energy Shake", 
             prices: ["169"],
-            toppings: "Milk, Almonds, Cashews, Dates, Pistachio, Honey, Anjeer, Walnut, Seeds(Chia, Alsi, Pumpkin)"
+            toppings: "(Milk, Almonds, Cashews, Dates, Pistachio, Honey, Anjeer, Walnut, Seeds(Alsi, Pumpkin))"
         },
         { 
             name: "Peanut Butter Protein Shake", 
             prices: ["199"],
-            toppings: "Milk, Peanut Butter, Banana, Honey, Ice"
+            toppings: "(Milk, Peanut Butter, Banana, Honey, Ice)"
         },
         { 
             name: "Chocolate Protein Blast", 
             prices: ["169"],
-            toppings: "Milk, Chocolate Syrup, Cocoa Powder, Banana, Peanut Butter"
+            toppings: "(Milk, Chocolate Syrup, Cocoa Powder, Banana, Peanut Butter)"
         },
         
         { 
             name: "Oreo Protein Shake", 
             prices: ["149"],
-            toppings: "Milk, Oreo, Vanilla Ice Cream, Chocolate Syrup, Peanut Butter"
+            toppings: "(Milk, Oreo, Vanilla Ice Cream, Chocolate Syrup, Peanut Butter)"
         },
         { 
             name: "Paneer Power Salad", 
             prices: ["179"],
-            toppings: "Paneer, Lettuce, Cucumber, Tomato, Onion, Sweet Corn, Mint Dressing"
+            toppings: "(Paneer, Lettuce, Cucumber, Tomato, Onion, Sweet Corn, Mint Dressing)"
         },
         { 
             name: "Crunchy Veg Protein Salad", 
             prices: ["169"],
-            toppings: "Paneer, Cabbage, Carrot, Corn, Capsicum, Black Pepper, Mayo"
+            toppings: "(Paneer, Cabbage, Carrot, Corn, Capsicum, Black Pepper, Mayo)"
         },
         { 
             name: "Corn Cheese Salad", 
             prices: ["159"],
-            toppings: "Sweet Corn, Cheese Cubes, Onion, Capsicum, Mayo, Herbs"
+            toppings: "(Sweet Corn, Cheese Cubes, Onion, Capsicum, Mayo, Herbs)"
         },
         { 
             name: "Sprouts Protein Salad", 
             prices: ["149"],
-            toppings: "Mixed Sprouts, Onion, Tomato, Cucumber, Lemon, Chaat Masala"
+            toppings: "(Mixed Sprouts, Onion, Tomato, Cucumber, Lemon, Chaat Masala)"
         }
     ]
 }
