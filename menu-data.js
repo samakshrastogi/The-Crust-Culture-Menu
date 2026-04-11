@@ -149,19 +149,11 @@ const MENU_DATA = [
         labels: [""],
         image: "garlic-bread.png",
         items: [
+            { name: "Veg Parcel", prices: ["49"] },
+            { name: "Indi Tandoori", prices: ["69"] },
             { name: "Garlic Bread", prices: ["99"] },
             { name: "Garlic Bread Stuffed", prices: ["149"] },
             { name: "Paneer Tikka Stuffed", prices: ["169"] }
-        ]
-    },
-    {
-        title: "Quick Wraps 🌯",
-        type: "1",
-        labels: [""],
-        image: "veg-parcel.png",
-        items: [
-            { name: "Veg Parcel", prices: ["49"] },
-            { name: "Indi Tandoori", prices: ["69"] }
         ]
     },
     {
@@ -244,7 +236,8 @@ const MENU_DATA = [
             { name: "Spring Roll", prices: ["49", "99"] },
             { name: "Veg Nuggets", prices: ["69", "119"] },
             { name: "Cheese Jalapeno Poppers", prices: ["69", "119"] },
-            { name: "Cheese Corn Nuggets", prices: ["89", "149"] }
+            { name: "Cheese Corn Nuggets", prices: ["89", "149"] },
+            { name: "Malai Chaap", prices: ["129", "199"] }
         ]
     },
 
@@ -296,15 +289,7 @@ const MENU_DATA = [
             { name: "Uttapam(1 Piece)", prices: ["149"] }
         ]
     },
-    {
-        title: "Tandoori Specials 🔥",
-        type: "2",
-        labels: ["H", "F"],
-        image: "malai-chaap.png",
-        items: [
-            { name: "Malai Chaap", prices: ["129", "199"] }
-        ]
-    },
+    
     {
         title: "Hot & Cold Beverages ☕🥤",
         type: "1",
