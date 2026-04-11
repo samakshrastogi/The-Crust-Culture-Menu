@@ -215,8 +215,8 @@ const MENU_DATA = [
         labels: ["H", "F"],
         image: "momos.png",
         items: [
-            { name: "Veg Steam Momo", prices: ["49", "69"] },
-            { name: "Veg Fried Momo", prices: ["59", "79"] },
+            { name: "Veg Steam Momo", prices: ["49", "79"] },
+            { name: "Veg Fried Momo", prices: ["59", "89"] },
             { name: "Paneer Steam Momo", prices: ["69", "99"] },
             { name: "Paneer Fried Momo", prices: ["79", "109"] }
         ]
