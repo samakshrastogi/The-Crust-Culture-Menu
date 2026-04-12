@@ -9,6 +9,7 @@ const MENU_DATA = [
             { name: "Cheese", prices: ["30", "50", "70"] },
             { name: "Paneer", prices: ["30", "50", "70"] },
             { name: "Cheese Burst", prices: ["60", "90", "120"] }
+            { name: "Oregano, Chilli Flakes, Ketchup", prices: ["2"] }
         ]
     },
     {
@@ -233,6 +234,7 @@ const MENU_DATA = [
         labels: ["H", "F"],
         image: "crispy-starters.png",
         items: [
+            { name: "Batata Vada", prices: ["49", "-"] },
             { name: "Spring Roll", prices: ["49", "99"] },
             { name: "Veg Nuggets", prices: ["69", "119"] },
             { name: "Cheese Jalapeno Poppers", prices: ["69", "119"] },
@@ -321,39 +323,38 @@ const MENU_DATA = [
             toppings: "(Milk, Almonds, Cashews, Dates, Pistachio, Honey, Anjeer, Walnut, Seeds(Alsi, Pumpkin))"
         },
         { 
-            name: "Peanut Butter Protein Shake", 
-            prices: ["179"],
-            toppings: "(Milk, Peanut Butter, Banana, Honey, Ice)"
-        },
-        { 
             name: "Chocolate Protein Blast", 
             prices: ["199"],
             toppings: "(Milk, Chocolate Syrup, Cocoa Powder, Banana, Peanut Butter)"
         },
-        
         { 
             name: "Oreo Protein Shake", 
             prices: ["199"],
             toppings: "(Milk, Oreo, Vanilla Ice Cream, Chocolate Syrup, Peanut Butter)"
         },
         { 
-            name: "Paneer Power Salad", 
+            name: "Peanut Butter Protein Shake", 
             prices: ["179"],
+            toppings: "(Milk, Peanut Butter, Banana, Honey, Ice)"
+        },
+        { 
+            name: "Paneer Power Salad", 
+            prices: ["-"],
             toppings: "(Paneer, Lettuce, Cucumber, Tomato, Onion, Sweet Corn, Mint Dressing)"
         },
         { 
             name: "Crunchy Veg Protein Salad", 
-            prices: ["169"],
+            prices: ["-"],
             toppings: "(Paneer, Cabbage, Carrot, Corn, Capsicum, Black Pepper, Mayo)"
         },
         { 
             name: "Corn Cheese Salad", 
-            prices: ["159"],
+            prices: ["-"],
             toppings: "(Sweet Corn, Cheese Cubes, Onion, Capsicum, Mayo, Herbs)"
         },
         { 
             name: "Sprouts Protein Salad", 
-            prices: ["149"],
+            prices: ["-"],
             toppings: "(Mixed Sprouts, Onion, Tomato, Cucumber, Lemon, Chaat Masala)"
         }
     ]
