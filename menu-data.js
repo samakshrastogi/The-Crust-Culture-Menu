@@ -98,7 +98,7 @@ const MENU_DATA = [
         title: "Royal Paneer Collection 👑",
         type: "3",
         labels: ["S", "M", "L"],
-        image: "royal-paneer.png",
+        image: "paneer.png",
         items: [
             {
                 name: "Paneer Capsicum",
