@@ -9,7 +9,7 @@ const MENU_DATA = [
             { name: "Cheese", prices: ["30", "50", "70"] },
             { name: "Paneer", prices: ["30", "50", "70"] },
             { name: "Cheese Burst", prices: ["60", "90", "120"] }
-            { name: "Oregano, Chilli Flakes, Ketchup", prices: ["2"] }
+            { name: "Oregano, Chilli Flakes, Ketchup", prices: ["2","-","-"] }
         ]
     },
     {
