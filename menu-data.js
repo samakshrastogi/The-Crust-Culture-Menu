@@ -32,7 +32,7 @@ const MENU_DATA = [
         title: "Classic Veg Combos",
         type: "3",
         labels: ["S", "M", "L"],
-        image: "classic-veg-combo.png",
+        image: "veg-combo.png",
         items: [
             { name: "Golden Corn + Onion", prices: ["99", "189", "299"] },
             { name: "Onion + Capsicum", prices: ["99", "189", "299"] },
