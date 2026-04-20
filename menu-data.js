@@ -158,6 +158,18 @@ const MENU_DATA = [
         ]
     },
     {
+    title: "Pizza Bread Fusion Combo 🍕🥪🥤",
+    type: "3",
+    labels: ["S", "M", "L"],
+    image: "pizza-bread-fusion.png",
+    items: [
+        {
+            name: "Pizza Bread Fusion + Cold Coffee",
+            prices: ["199", "399", "599"]
+        }
+    ]
+},
+    {
         title: "Grilled Sandwiches 🥪",
         type: "1",
         labels: [""],
