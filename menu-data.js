@@ -24,7 +24,7 @@ const MENU_DATA = [
             { name: "Capsicum", prices: ["89", "179", "269"] },
             { name: "Golden Corn", prices: ["99", "189", "299"] },
             { name: "Margherita", prices: ["99", "199", "319"] },
-            { name: "Golden Corn & Cheese", prices: ["119", "199", "319"] },
+            { name: "Golden Corn & Cheese", prices: ["119", "219", "349"] },
             { name: "Double Cheese Margherita", prices: ["119", "219", "349"] }
         ]
     },
@@ -34,7 +34,7 @@ const MENU_DATA = [
         labels: ["S", "M", "L"],
         image: "veg-combo.png",
         items: [
-            { name: "Golden Corn + Onion", prices: ["99", "189", "299"] },
+            { name: "Golden Corn + Onion", prices: ["99", "199", "319"] },
             { name: "Onion + Capsicum", prices: ["99", "189", "299"] },
             { name: "Tomato + Golden Corn", prices: ["99", "189", "299"] },
             { name: "Golden Corn + Jalapeno", prices: ["99", "199", "329"] },
@@ -50,12 +50,12 @@ const MENU_DATA = [
             {
                 name: "Yammy Veg Pizza",
                 toppings: "(Golden Corn, Onion, Capsicum, Tomato, Cheese)",
-                prices: ["129", "229", "319"]
+                prices: ["129", "249", "349"]
             },
             {
                 name: "Maxican Pizza",
                 toppings: "(Onion, Capsicum, Jalapeno, Tomato, Cheese)",
-                prices: ["129", "229", "319"]
+                prices: ["149", "269", "369"]
             },
             {
                 name: "Veg Loaded Pizza",
@@ -70,7 +70,7 @@ const MENU_DATA = [
             {
                 name: "Classic Indian Pizza",
                 toppings: "(Onion, Tomato, Golden Corn, Capsicum, Jalapeno, Cheese)",
-                prices: ["149", "249", "329"]
+                prices: ["169", "289", "369"]
             },
             {
                 name: "Black Lover Loaded",
@@ -80,17 +80,17 @@ const MENU_DATA = [
             {
                 name: "Farmhouse Pizza",
                 toppings: "(Onion, Capsicum, Tomato, Mushroom, Extra Cheese)",
-                prices: ["199", "289", "369"]
+                prices: ["199", "319", "399"]
             },
             {
                 name: "Extravaganza Pizza",
                 toppings: "(Onion, Capsicum, Tomato, Mushroom, Golden Corn, Black Olive, Extra Cheese)",
-                prices: ["199", "289", "369"]
+                prices: ["229", "319", "399"]
             },
             {
                 name: "Paradise Pizza",
                 toppings: "(Golden Corn, Black Olive, Capsicum, Red Pepper, Extra Cheese)",
-                prices: ["229", "349", "419"]
+                prices: ["229", "349", "449"]
             }
         ]
     },
@@ -102,11 +102,11 @@ const MENU_DATA = [
         items: [
             {
                 name: "Paneer Capsicum",
-                prices: ["149", "249", "319"]
+                prices: ["149", "249", "329"]
             },
             {
                 name: "Paneer Onion",
-                prices: ["149", "249", "319"]
+                prices: ["149", "249", "329"]
             },
             {
                 name: "Paneer Onion Capsicum",
@@ -115,17 +115,17 @@ const MENU_DATA = [
             {
                 name: "Paneer Special",
                 toppings: "(Red Pepper, Onion, Capsicum, Paneer, Cheese)",
-                prices: ["169", "269", "349"]
+                prices: ["189", "299", "389"]
             },
             {
                 name: "Veg + Paneer Loaded",
                 toppings: "(Onion, Capsicum, Golden Corn, Paneer, Cheese)",
-                prices: ["169", "269", "349"]
+                prices: ["189", "299", "389"]
             },
             {
                 name: "Paneer Makhni",
                 toppings: "(Cheese, Capsicum, Onion, Red Pepper, Paneer Tikka)",
-                prices: ["169", "269", "349"]
+                prices: ["199", "319", "449"]
             },
             {
                 name: "Pappy Paneer",
@@ -140,7 +140,7 @@ const MENU_DATA = [
             {
                 name: "Double Paneer Premium",
                 toppings: "(Onion, Capsicum, Red Pepper, Double Paneer, Extra Cheese)",
-                prices: ["229", "329", "419"]
+                prices: ["229", "349", "469"]
             }
         ]
     },
@@ -163,12 +163,12 @@ const MENU_DATA = [
         labels: [""],
         image: "sandwhich.png",
         items: [
-            { name: "Veg Grill Sandwich", prices: ["69"] },
+            { name: "Veg Grill Sandwich", prices: ["79"] },
             { name: "Veg, Golden Corn", prices: ["89"] },
-            { name: "Paneer Special", prices: ["99"] },
-            { name: "Cheese Special", prices: ["99"] },
-            { name: "Cheese & Paneer Special", prices: ["119"] },
-            { name: "Golden Corn & Cheese", prices: ["119"] }
+            { name: "Paneer Special", prices: ["119"] },
+            { name: "Cheese Special", prices: ["119"] },
+            { name: "Cheese & Paneer Special", prices: ["139"] },
+            { name: "Golden Corn & Cheese", prices: ["129"] }
         ]
     },
     {
@@ -196,8 +196,8 @@ const MENU_DATA = [
         items: [
             { name: "Plain Maggie", prices: ["49", "89"] },
             { name: "Veggie Maggie", prices: ["59", "99"] },
-            { name: "Cheese Maggie", prices: ["69", "129"] },
-            { name: "Paneer Maggie", prices: ["69", "129"] },
+            { name: "Cheese Maggie", prices: ["79", "149"] },
+            { name: "Paneer Maggie", prices: ["79", "149"] },
             { name: "Spicy Dry Maggie", prices: ["79", "149"] },
             { name: "Schezwan Maggie", prices: ["79", "149"] },
         ]
@@ -208,10 +208,10 @@ const MENU_DATA = [
         labels: ["H", "F"],
         image: "momos.png",
         items: [
-            { name: "Veg Steam Momo", prices: ["49", "79"] },
-            { name: "Veg Fried Momo", prices: ["59", "89"] },
-            { name: "Paneer Steam Momo", prices: ["69", "99"] },
-            { name: "Paneer Fried Momo", prices: ["79", "109"] }
+            { name: "Veg Steam Momo", prices: ["49", "89"] },
+            { name: "Veg Fried Momo", prices: ["49", "99"] },
+            { name: "Paneer Steam Momo", prices: ["69", "129"] },
+            { name: "Paneer Fried Momo", prices: ["69", "129"] }
         ]
     },
     {
