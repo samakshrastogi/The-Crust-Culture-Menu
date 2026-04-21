@@ -165,6 +165,7 @@ const MENU_DATA = [
     items: [
         {
             name: "Pizza Bread Fusion + Cold Coffee",
+            toppings: "(Golden Corn, Black Olive, Capsicum, Red Pepper,Cheese + Garlic Bread Stuffed)",
             prices: ["-", "449", "599"]
         }
     ]
