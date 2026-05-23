@@ -94,55 +94,65 @@ const MENU_DATA = [
         ]
     },
     {
-        title: "Royal Paneer Collection 👑",
-        type: "3",
-        labels: ["S", "M", "L"],
-        image: "paneer.png",
-        items: [
-            {
-                name: "Paneer Capsicum",
-                prices: ["149", "249", "329"]
-            },
-            {
-                name: "Paneer Onion",
-                prices: ["149", "249", "329"]
-            },
-            {
-                name: "Paneer Onion Capsicum",
-                prices: ["159", "269", "329"]
-            },
-            {
-                name: "Paneer Special",
-                toppings: "(Red Pepper, Onion, Capsicum, Paneer, Cheese)",
-                prices: ["189", "299", "389"]
-            },
-            {
-                name: "Veg + Paneer Loaded",
-                toppings: "(Onion, Capsicum, Golden Corn, Paneer, Cheese)",
-                prices: ["189", "299", "389"]
-            },
-            {
-                name: "Paneer Makhni",
-                toppings: "(Cheese, Capsicum, Onion, Red Pepper, Paneer Tikka)",
-                prices: ["199", "319", "449"]
-            },
-            {
-                name: "Pappy Paneer",
-                toppings: "(Capsicum, Red Pepper, Paneer, Cheese)",
-                prices: ["199", "299", "369"]
-            },
-            {
-                name: "Loaded Indi Tandoori",
-                toppings: "(Capsicum, Red Pepper, Paneer Tikka, Cheese)",
-                prices: ["199", "299", "369"]
-            },
-            {
-                name: "Double Paneer Premium",
-                toppings: "(Onion, Capsicum, Red Pepper, Double Paneer, Extra Cheese)",
-                prices: ["229", "349", "469"]
-            }
-        ]
-    },
+    title: "Royal Paneer Collection 👑",
+    type: "3",
+    labels: ["S", "M", "L"],
+    image: "paneer.png",
+    items: [
+        {
+            name: "Paneer Capsicum",
+            prices: ["149", "249", "329"]
+        },
+        {
+            name: "Paneer Onion",
+            prices: ["149", "249", "329"]
+        },
+        {
+            name: "Paneer Onion Capsicum",
+            prices: ["159", "269", "329"]
+        },
+        {
+            name: "Paneer Special",
+            toppings: "(Red Pepper, Onion, Capsicum, Paneer, Cheese)",
+            prices: ["189", "299", "389"]
+        },
+        {
+            name: "Veg + Paneer Loaded",
+            toppings: "(Onion, Capsicum, Golden Corn, Paneer, Cheese)",
+            prices: ["189", "299", "389"]
+        },
+        {
+            name: "Paneer Makhni",
+            toppings: "(Cheese, Capsicum, Onion, Red Pepper, Paneer Tikka)",
+            prices: ["199", "319", "449"]
+        },
+        {
+            name: "Pappy Paneer",
+            toppings: "(Capsicum, Red Pepper, Paneer, Cheese)",
+            prices: ["199", "299", "369"]
+        },
+        {
+            name: "Loaded Indi Tandoori",
+            toppings: "(Capsicum, Red Pepper, Paneer Tikka, Cheese)",
+            prices: ["199", "299", "369"]
+        },
+        {
+            name: "Cheesy Corn Paneer",
+            toppings: "(Golden Corn, Paneer, Cheese)",
+            prices: ["169", "279", "369"]
+        },
+        {
+            name: "Hot Peri Paneer",
+            toppings: "(Peri Peri, Paneer, Hot Sauce, Red Peprika, Cheese)",
+            prices: ["219", "329", "429"]
+        },
+        {
+            name: "Double Paneer Premium",
+            toppings: "(Onion, Capsicum, Red Pepper, Double Paneer, Extra Cheese)",
+            prices: ["229", "349", "469"]
+        }
+    ]
+},
     {
         title: "Garlic Breads & Sides 🥖",
         type: "1",
