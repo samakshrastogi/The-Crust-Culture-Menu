@@ -240,33 +240,7 @@ const MENU_DATA = [
             { name: "Peri Peri Smilies", prices: ["99", "169"] }
         ]
     },
-    {
-        title: "Crispy Starters 🍢",
-        type: "2",
-        labels: ["H", "F"],
-        image: "crispy-starters.png",
-        items: [
-            { name: "Batata Vada", prices: ["49", "-"] },
-            { name: "Spring Roll", prices: ["49", "99"] },
-            { name: "Veg Nuggets", prices: ["69", "119"] },
-            { name: "Cheese Jalapeno Poppers", prices: ["69", "119"] },
-            { name: "Cheese Corn Nuggets", prices: ["89", "149"] },
-            { name: "Malai Chaap", prices: ["129", "199"] }
-        ]
-    },
-
-    {
-        title: "Indo-Chinese Specials 🥢",
-        type: "2",
-        labels: ["H", "F"],
-        image: "chinese.png",
-        items: [
-            { name: "Dry Manchurian", prices: ["99", "189"] },
-            { name: "Chilli Potato", prices: ["119", "199"] },
-            { name: "Gravy Manchurian", prices: ["129", "199"] },
-            { name: "Honey Chilli Potato", prices: ["129", "199"] }
-        ]
-    },
+    
     {
         title: "Stuffed Parathas 🫓",
         type: "1",
@@ -292,19 +266,6 @@ const MENU_DATA = [
         ]
     },
     {
-        title: "South Indian Specials 🥥",
-        type: "1",
-        labels: [""],
-        image: "south-indian.png",
-        items: [
-            { name: "Idli Sambhar(2 Pieces)", prices: ["59"] },
-            { name: "Sponge Dosa(2 Pieces)", prices: ["99"] },
-            { name: "Medu Vada(4 Pieces)", prices: ["99"] },
-            { name: "Uttapam(1 Piece)", prices: ["149"] }
-        ]
-    },
-    
-    {
         title: "Hot & Cold Beverages ☕🥤",
         type: "1",
         labels: [""],
@@ -321,6 +282,46 @@ const MENU_DATA = [
             { name: "Cold Coffee", prices: ["79"] },
             { name: "Cold Coffee with Ice Cream", prices: ["119"] },
             { name: "Cold Drink", prices: ["MRP"] }
+        ]
+    },
+    
+    {
+        title: "South Indian Specials 🥥",
+        type: "1",
+        labels: [""],
+        image: "south-indian.png",
+        items: [
+            { name: "Idli Sambhar(2 Pieces)", prices: ["59"] },
+            { name: "Sponge Dosa(2 Pieces)", prices: ["99"] },
+            { name: "Medu Vada(4 Pieces)", prices: ["99"] },
+            { name: "Uttapam(1 Piece)", prices: ["149"] }
+        ]
+    },
+    
+    {
+        title: "Indo-Chinese Specials 🥢",
+        type: "2",
+        labels: ["H", "F"],
+        image: "chinese.png",
+        items: [
+            { name: "Dry Manchurian", prices: ["99", "189"] },
+            { name: "Chilli Potato", prices: ["119", "199"] },
+            { name: "Gravy Manchurian", prices: ["129", "199"] },
+            { name: "Honey Chilli Potato", prices: ["129", "199"] }
+        ]
+    },
+    {
+        title: "Crispy Starters 🍢",
+        type: "2",
+        labels: ["H", "F"],
+        image: "crispy-starters.png",
+        items: [
+            { name: "Batata Vada", prices: ["49", "-"] },
+            { name: "Spring Roll", prices: ["49", "99"] },
+            { name: "Veg Nuggets", prices: ["69", "119"] },
+            { name: "Cheese Jalapeno Poppers", prices: ["69", "119"] },
+            { name: "Cheese Corn Nuggets", prices: ["89", "149"] },
+            { name: "Malai Chaap", prices: ["129", "199"] }
         ]
     },
     {
