@@ -260,7 +260,7 @@ const MENU_DATA = [
             { name: "Veg Fried Rice", prices: ["69", "129"] },
             { name: "Schezwan", prices: ["89", "149"] },
             { name: "Paneer", prices: ["99", "189"] },
-            { name: "Fried Rice with Curd", prices: ["119", "199"] },
+            { name: "Chinese", prices: ["119", "199"] },
             { name: "Manchurian Rice", prices: ["129", "219"] }
         ]
     },{
