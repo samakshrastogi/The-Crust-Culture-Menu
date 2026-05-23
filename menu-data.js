@@ -18,7 +18,6 @@ const MENU_DATA = [
         labels: ["S", "M", "L"],
         image: "everyday-classics.png",
         items: [
-            { name: "Classic", prices: ["49", "-", "-"] },
             { name: "Onion", prices: ["89", "179", "269"] },
             { name: "Tomato", prices: ["89", "179", "269"] },
             { name: "Capsicum", prices: ["89", "179", "269"] },
