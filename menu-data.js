@@ -250,20 +250,19 @@ const MENU_DATA = [
             { name: "Mix Veg Paratha (2 Pieces)", prices: ["99"] },
             { name: "Paneer Paratha (2 Pieces)", prices: ["129"] }
         ]
-    },
-    {
-        title: "Wok Rice Bowls 🍚",
-        type: "2",
-        labels: ["H", "F"],
-        image: "rice.png",
-        items: [
-            { name: "Veg Fried Rice", prices: ["69", "129"] },
-            { name: "Schezwan", prices: ["89", "149"] },
-            { name: "Paneer", prices: ["99", "189"] },
-            { name: "Chinese", prices: ["119", "199"] },
-            { name: "Manchurian Rice", prices: ["129", "219"] }
-        ]
     },{
+    title: "Wok Rice Bowls 🍚",
+    type: "2",
+    labels: ["H", "F"],
+    image: "rice.png",
+    items: [
+        { name: "Veg Fried Rice", prices: ["__", "__"] },
+        { name: "Schezwan", prices: ["__", "__"] },
+        { name: "Paneer", prices: ["__", "__"] },
+        { name: "Chinese", prices: ["__", "__"] },
+        { name: "Manchurian Rice", prices: ["__", "__"] }
+    ]
+},{
     title: "Hot & Cold Beverages ☕🥤",
     type: "2",
     labels: ["H", "F"],
