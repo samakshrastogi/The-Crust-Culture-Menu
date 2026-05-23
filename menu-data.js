@@ -266,24 +266,26 @@ const MENU_DATA = [
         ]
     },
     {
-        title: "Hot & Cold Beverages ☕🥤",
-        type: "1",
-        labels: [""],
-        image: "drinks.png",
-        items: [
-            { name: "Ginger Tea", prices: ["19"] },
-            { name: "Masala Chai", prices: ["29"] },
-            { name: "Lemon Honey Tea", prices: ["49"] },
-            { name: "Hot Coffee", prices: ["49"] },
-            { name: "Black Coffee", prices: ["49"] },
-            { name: "Sweet Lassi", prices: ["49"] },
-            { name: "Shikanji", prices: ["49"] },
-            { name: "Lemon soda", prices: ["69"] },
-            { name: "Cold Coffee", prices: ["79"] },
-            { name: "Cold Coffee with Ice Cream", prices: ["119"] },
-            { name: "Cold Drink", prices: ["MRP"] }
-        ]
-    },
+    title: "Hot & Cold Beverages ☕🥤",
+    type: "2",
+    labels: ["H", "F"],
+    image: "drinks.png",
+    items: [
+        { name: "Ginger Tea", prices: ["19", "-"] },
+        { name: "Masala Chai", prices: ["29", "-"] },
+        { name: "Lemon Honey Tea", prices: ["49", "-"] },
+        { name: "Hot Coffee", prices: ["49", "-"] },
+        { name: "Black Coffee", prices: ["49", "-"] },
+        { name: "Sweet Lassi", prices: ["-", "49"] },
+        { name: "Shikanji", prices: ["-", "49"] },
+        { name: "Lemon Soda", prices: ["-", "69"] },
+        { name: "Cold Coffee", prices: ["49", "79"] },
+        { name: "Cold Coffee with Ice Cream", prices: ["-", "119"] },
+        { name: "Oreo Shake", prices: ["-", "129"] },
+        { name: "Kitkat Shake", prices: ["-", "139"] },
+        { name: "Cold Drink", prices: ["-", "MRP"] }
+    ]
+},
     
     {
         title: "South Indian Specials 🥥",
