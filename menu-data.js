@@ -190,14 +190,13 @@ const MENU_DATA = [
         image: "burgers.png",
         items: [
             { name: "Aloo Tikki Burger", prices: ["49"] },
-            { name: "Vada Pav", prices: ["49"] },
+            
             { name: "Veg Burger", prices: ["59"] },
             { name: "Cheese Burger", prices: ["79"] },
             { name: "Paneer Burger", prices: ["79"] },
             { name: "Double Cheese", prices: ["99"] },
             { name: "Cheese & Paneer", prices: ["119"] },
-            { name: "Pav Bhaji(2 Pav)", prices: ["99"] },
-            { name: "Extra Pav", prices: ["25"] }
+            
         ]
     },
     {
@@ -285,32 +284,6 @@ const MENU_DATA = [
         { name: "Cold Drink", prices: ["", "MRP"] }
     ]
 },
-    
-    {
-        title: "South Indian Specials 🥥",
-        type: "1",
-        labels: [""],
-        image: "south-indian.png",
-        items: [
-            { name: "Idli Sambhar(2 Pieces)", prices: ["59"] },
-            { name: "Sponge Dosa(2 Pieces)", prices: ["99"] },
-            { name: "Medu Vada(4 Pieces)", prices: ["99"] },
-            { name: "Uttapam(1 Piece)", prices: ["149"] }
-        ]
-    },
-    
-    {
-        title: "Indo-Chinese Specials 🥢",
-        type: "2",
-        labels: ["H", "F"],
-        image: "chinese.png",
-        items: [
-            { name: "Dry Manchurian", prices: ["99", "189"] },
-            { name: "Chilli Potato", prices: ["119", "199"] },
-            { name: "Gravy Manchurian", prices: ["129", "199"] },
-            { name: "Honey Chilli Potato", prices: ["129", "199"] }
-        ]
-    },
     {
         title: "Crispy Starters 🍢",
         type: "2",
@@ -325,6 +298,33 @@ const MENU_DATA = [
             { name: "Malai Chaap", prices: ["129", "199"] }
         ]
     },
+    {
+        title: "Indo-Chinese Specials 🥢",
+        type: "2",
+        labels: ["H", "F"],
+        image: "chinese.png",
+        items: [
+            { name: "Dry Manchurian", prices: ["99", "189"] },
+            { name: "Chilli Potato", prices: ["119", "199"] },
+            { name: "Gravy Manchurian", prices: ["129", "199"] },
+            { name: "Honey Chilli Potato", prices: ["129", "199"] }
+        ]
+    },
+    
+    {
+        title: "South Indian Specials 🥥",
+        type: "1",
+        labels: [""],
+        image: "south-indian.png",
+        items: [
+            { name: "Idli Sambhar(2 Pieces)", prices: ["59"] },
+            { name: "Sponge Dosa(2 Pieces)", prices: ["99"] },
+            { name: "Medu Vada(4 Pieces)", prices: ["99"] },
+            { name: "Uttapam(1 Piece)", prices: ["149"] }
+        ]
+    },
+    
+    
     {
     title: "Protein Shakes & Salads 💪🥗",
     type: "1",
