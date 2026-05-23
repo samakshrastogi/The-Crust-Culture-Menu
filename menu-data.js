@@ -279,8 +279,8 @@ const MENU_DATA = [
         { name: "Lemon Soda", prices: ["69"] },
         { name: "Cold Coffee", prices: ["49", "79"] },
         { name: "Cold Coffee with Ice Cream", prices: ["119"] },
-        { name: "Oreo Shake", prices: ["129"] },
-        { name: "Kitkat Shake", prices: ["139"] },
+        { name: "Oreo Shake", prices: ["__","__"] },
+        { name: "Kitkat Shake", prices: ["__","__"] },
         { name: "Cold Drink", prices: ["MRP"] }
     ]
 },
