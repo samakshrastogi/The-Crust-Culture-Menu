@@ -39,7 +39,9 @@ const MENU_DATA = [
             { name: "Golden Corn + Jalapeno", prices: ["99", "199", "329"] },
             { name: "Capsicum + Red Peperika", prices: ["99", "199", "329"] }
         ]
-    },{
+    },
+    {
+    t{
     title: "Signature Veg Pizzas",
     type: "3",
     labels: ["S", "M", "L"],
@@ -54,6 +56,11 @@ const MENU_DATA = [
             name: "Four Seasons Veg Pizza",
             toppings: "(Golden Corn, Onion, Capsicum, Tomato, Cheese)",
             prices: ["139", "249", "349"]
+        },
+        {
+            name: "Sweet Fiesta",
+            toppings: "(Sweet Corn, Jalapeno, Cheese)",
+            prices: ["149", "269", "369"]
         },
         {
             name: "Maxican Pizza",
