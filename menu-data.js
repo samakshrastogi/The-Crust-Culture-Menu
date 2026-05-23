@@ -47,7 +47,7 @@ const MENU_DATA = [
         image: "signature.png",
         items: [
             {
-                name: "Yammy Veg Pizza",
+                name: "Four Seasons Veg Pizza",
                 toppings: "(Golden Corn, Onion, Capsicum, Tomato, Cheese)",
                 prices: ["139", "249", "349"]
             },
