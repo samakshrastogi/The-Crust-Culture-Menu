@@ -270,7 +270,7 @@ const MENU_DATA = [
     labels: ["H", "F"],
     image: "drinks.png",
     items: [
-        { name: "Ginger Tea", prices: ["", "19"] },
+        { name: "Ginger Tea", prices: ["19"] },
         { name: "Masala Chai", prices: ["","29"] },
         { name: "Lemon Honey Tea", prices: ["","49"] },
         { name: "Hot Coffee", prices: ["","49"] },
