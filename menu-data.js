@@ -49,7 +49,7 @@ const MENU_DATA = [
             {
                 name: "Yammy Veg Pizza",
                 toppings: "(Golden Corn, Onion, Capsicum, Tomato, Cheese)",
-                prices: ["129", "249", "349"]
+                prices: ["139", "249", "349"]
             },
             {
                 name: "Maxican Pizza",
