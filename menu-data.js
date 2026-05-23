@@ -35,7 +35,7 @@ const MENU_DATA = [
         items: [
             { name: "Golden Corn + Onion", prices: ["99", "199", "319"] },
             { name: "Onion + Capsicum", prices: ["99", "189", "299"] },
-            { name: "Tomato + Golden Corn", prices: ["99", "189", "299"] },
+            { name: "Tomato + Golden Corn", prices: ["99", "199", "299"] },
             { name: "Golden Corn + Jalapeno", prices: ["99", "199", "329"] },
             { name: "Capsicum + Red Peperika", prices: ["99", "199", "329"] }
         ]
