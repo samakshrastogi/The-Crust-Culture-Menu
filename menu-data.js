@@ -39,60 +39,64 @@ const MENU_DATA = [
             { name: "Golden Corn + Jalapeno", prices: ["99", "199", "329"] },
             { name: "Capsicum + Red Peperika", prices: ["99", "199", "329"] }
         ]
-    },
-    {
-        title: "Signature Veg Pizzas",
-        type: "3",
-        labels: ["S", "M", "L"],
-        image: "signature.png",
-        items: [
-            {
-                name: "Four Seasons Veg Pizza",
-                toppings: "(Golden Corn, Onion, Capsicum, Tomato, Cheese)",
-                prices: ["139", "249", "349"]
-            },
-            {
-                name: "Maxican Pizza",
-                toppings: "(Onion, Capsicum, Jalapeno, Tomato, Cheese)",
-                prices: ["149", "269", "369"]
-            },
-            {
-                name: "Veg Loaded Pizza",
-                toppings: "(Golden Corn, Tomato, Jalapeno, Mushroom, Cheese)",
-                prices: ["149", "269", "349"]
-            },
-            {
-                name: "Fresh Veggie",
-                toppings: "(Onion, Capsicum, Extra Cheese)",
-                prices: ["149", "269", "349"]
-            },
-            {
-                name: "Classic Indian Pizza",
-                toppings: "(Onion, Tomato, Golden Corn, Capsicum, Jalapeno, Cheese)",
-                prices: ["169", "289", "369"]
-            },
-            {
-                name: "Black Lover Loaded",
-                toppings: "(Black Olive, Golden Corn, Capsicum, Cheese)",
-                prices: ["149", "229", "349"]
-            },
-            {
-                name: "Farmhouse Pizza",
-                toppings: "(Onion, Capsicum, Tomato, Mushroom, Extra Cheese)",
-                prices: ["199", "319", "399"]
-            },
-            {
-                name: "Extravaganza Pizza",
-                toppings: "(Onion, Capsicum, Tomato, Mushroom, Golden Corn, Black Olive, Extra Cheese)",
-                prices: ["229", "319", "399"]
-            },
-            {
-                name: "Paradise Pizza",
-                toppings: "(Golden Corn, Black Olive, Capsicum, Red Pepper, Extra Cheese)",
-                prices: ["229", "349", "449"]
-            }
-        ]
-    },
+    },{
+    title: "Signature Veg Pizzas",
+    type: "3",
+    labels: ["S", "M", "L"],
+    image: "signature.png",
+    items: [
+        {
+            name: "Fiesta Popper",
+            toppings: "(Capsicum, Jalapeno, Red Pepper)",
+            prices: ["139", "249", "349"]
+        },
+        {
+            name: "Four Seasons Veg Pizza",
+            toppings: "(Golden Corn, Onion, Capsicum, Tomato, Cheese)",
+            prices: ["139", "249", "349"]
+        },
+        {
+            name: "Maxican Pizza",
+            toppings: "(Onion, Capsicum, Jalapeno, Tomato, Cheese)",
+            prices: ["149", "269", "369"]
+        },
+        {
+            name: "Veg Loaded Pizza",
+            toppings: "(Golden Corn, Tomato, Jalapeno, Mushroom, Cheese)",
+            prices: ["149", "269", "349"]
+        },
+        {
+            name: "Fresh Veggie",
+            toppings: "(Onion, Capsicum, Extra Cheese)",
+            prices: ["149", "269", "349"]
+        },
+        {
+            name: "Black Lover Loaded",
+            toppings: "(Black Olive, Golden Corn, Capsicum, Cheese)",
+            prices: ["149", "229", "349"]
+        },
+        {
+            name: "Classic Indian Pizza",
+            toppings: "(Onion, Tomato, Golden Corn, Capsicum, Jalapeno, Cheese)",
+            prices: ["169", "289", "369"]
+        },
+        {
+            name: "Farmhouse Pizza",
+            toppings: "(Onion, Capsicum, Tomato, Mushroom, Extra Cheese)",
+            prices: ["199", "319", "399"]
+        },
+        {
+            name: "Extravaganza Pizza",
+            toppings: "(Onion, Capsicum, Tomato, Mushroom, Golden Corn, Black Olive, Extra Cheese)",
+            prices: ["229", "319", "399"]
+        },
+        {
+            name: "Paradise Pizza",
+            toppings: "(Golden Corn, Black Olive, Capsicum, Red Pepper, Extra Cheese)",
+            prices: ["229", "349", "449"]
+        }
+    ]
+},
     {
     title: "Royal Paneer Collection 👑",
     type: "3",
