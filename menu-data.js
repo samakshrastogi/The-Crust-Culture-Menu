@@ -299,6 +299,17 @@ const MENU_DATA = [
         ]
     },
     {
+    title: "Mumbai Street Specials 🌆🍔",
+    type: "1",
+    labels: [""],
+    image: "mumbai-street.png",
+    items: [
+        { name: "Vada Pav", prices: ["49"] },
+        { name: "Pav Bhaji(2 Pav)", prices: ["99"] },
+        { name: "Extra Pav", prices: ["25"] }
+    ]
+},
+    {
         title: "Indo-Chinese Specials 🥢",
         type: "2",
         labels: ["H", "F"],
