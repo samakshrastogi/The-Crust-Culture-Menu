@@ -96,8 +96,7 @@ const MENU_DATA = [
             prices: ["229", "349", "449"]
         }
     ]
-},
-    {
+},{
     title: "Royal Paneer Collection 👑",
     type: "3",
     labels: ["S", "M", "L"],
@@ -112,7 +111,17 @@ const MENU_DATA = [
             prices: ["149", "249", "329"]
         },
         {
+            name: "Hot Peri Paneer",
+            toppings: "(Peri Peri, Paneer, Hot Sauce, Red Peprika, Cheese)",
+            prices: ["149", "249", "319"]
+        },
+        {
             name: "Paneer Onion Capsicum",
+            prices: ["159", "269", "329"]
+        },
+        {
+            name: "Cheesy Corn Paneer",
+            toppings: "(Golden Corn, Paneer, Cheese)",
             prices: ["159", "269", "329"]
         },
         {
@@ -126,11 +135,6 @@ const MENU_DATA = [
             prices: ["189", "299", "389"]
         },
         {
-            name: "Paneer Makhni",
-            toppings: "(Cheese, Capsicum, Onion, Red Pepper, Paneer Tikka)",
-            prices: ["199", "319", "449"]
-        },
-        {
             name: "Pappy Paneer",
             toppings: "(Capsicum, Red Pepper, Paneer, Cheese)",
             prices: ["199", "299", "369"]
@@ -141,14 +145,9 @@ const MENU_DATA = [
             prices: ["199", "299", "369"]
         },
         {
-            name: "Cheesy Corn Paneer",
-            toppings: "(Golden Corn, Paneer, Cheese)",
-            prices: ["169", "279", "369"]
-        },
-        {
-            name: "Hot Peri Paneer",
-            toppings: "(Peri Peri, Paneer, Hot Sauce, Red Peprika, Cheese)",
-            prices: ["219", "329", "429"]
+            name: "Paneer Makhni",
+            toppings: "(Cheese, Capsicum, Onion, Red Pepper, Paneer Tikka)",
+            prices: ["199", "319", "449"]
         },
         {
             name: "Double Paneer Premium",
