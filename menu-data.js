@@ -41,7 +41,6 @@ const MENU_DATA = [
         ]
     },
     {
-    t{
     title: "Signature Veg Pizzas",
     type: "3",
     labels: ["S", "M", "L"],
