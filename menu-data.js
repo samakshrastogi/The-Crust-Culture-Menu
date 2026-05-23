@@ -6,8 +6,8 @@ const MENU_DATA = [
         image: "extra-toppings.png",
         items: [
             { name: "Veggies", prices: ["20", "40", "60"] },
-            { name: "Cheese", prices: ["30", "50", "70"] },
-            { name: "Paneer", prices: ["30", "50", "70"] },
+            { name: "Cheese", prices: ["30", "60", "90"] },
+            { name: "Paneer", prices: ["30", "50", "80"] },
             { name: "Cheese Burst", prices: ["60", "90", "120"] },
             { name: "Oregano, Chilli Flakes, Ketchup", prices: ["2"] }
         ]
