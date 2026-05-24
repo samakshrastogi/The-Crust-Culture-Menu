@@ -68,6 +68,45 @@
             gap: 40px;
         }
 
+        .section.compact {
+            gap: 28px;
+        }
+
+        .section.compact .ribbon {
+            padding: 0 22px 10px;
+            letter-spacing: 2px;
+        }
+
+        .section.compact .menu-copy {
+            width: 540px;
+        }
+
+        .section.compact .food-frame {
+            width: 210px;
+            height: 210px;
+        }
+
+        .section.compact .menu-item {
+            padding: 2px 0;
+        }
+
+        .section.compact .menu-item-name {
+            line-height: 1.05;
+        }
+
+        .section.compact .menu-item-toppings {
+            line-height: 1.1;
+            margin-top: 1px;
+        }
+
+        .section.compact .price-col {
+            width: 50px;
+        }
+
+        .section.compact .price-label {
+            width: 50px;
+        }
+
         h1 {
             text-shadow:
                 0 0 15px rgba(250, 204, 21, 0.6),
@@ -79,13 +118,18 @@
         }
 
         .food-img {
-            transform: scale(1.08);
+            transform: scale(1.02);
             transition: 0.4s;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         @media screen {
             .section:hover .food-img {
-                transform: scale(1.15);
+                transform: scale(1.08);
             }
         }
 
@@ -179,22 +223,23 @@
 
         // ✅ RENDER SECTION
         function renderSection(sec, reverse) {
+            const isCompact = sec.compact === true;
 
             const labelsRow = sec.labels && sec.labels[0] !== "" ? `
                 <div class="flex justify-end mt-2">
-                    ${sec.labels.map(l => `<div class="price-col text-xs text-yellow-300">${l}</div>`).join("")}
+                    ${sec.labels.map(l => `<div class="price-col price-label text-xs text-yellow-300">${l}</div>`).join("")}
                 </div>` : "";
 
             const items = sec.items.map(i => `
-                <div class="grid grid-cols-[1fr_auto] items-start gap-x-3 py-1">
+                <div class="menu-item grid grid-cols-[1fr_auto] items-start gap-x-3 py-1">
                     <div class="min-w-0">
                         <div class="flex items-center">
-                            <span class="shrink-0">${i.name.toUpperCase()}</span>
+                            <span class="menu-item-name shrink-0">${i.name.toUpperCase()}</span>
                             <div class="flex-1 h-[1px] bg-gray-600 mx-3"></div>
                         </div>
 
                         ${i.toppings ? `
-                            <div class="text-[9px] text-gray-400 ml-1 mt-[2px] italic tracking-wide whitespace-normal break-words leading-snug pr-2">
+                            <div class="menu-item-toppings text-[9px] text-gray-400 ml-1 mt-[2px] italic tracking-wide whitespace-normal break-words leading-snug pr-2">
                                 ${i.toppings}
                             </div>
                         ` : ""}
@@ -207,7 +252,7 @@
             `).join("");
 
             const text = `
-                <div class="flex flex-col w-[520px]">
+                <div class="menu-copy flex flex-col w-[520px]">
                     <div class="ribbon text-center">${sec.title}</div>
                     ${labelsRow}
                     ${items}
@@ -215,8 +260,8 @@
             `;
 
             const image = `
-                <div class="relative w-[250px] h-[250px] rounded-full border border-yellow-400 overflow-hidden bg-black flex items-center justify-center">
-                    <img src="${sec.image}" class="food-img w-full h-full object-cover">
+                <div class="food-frame relative w-[250px] h-[250px] rounded-full border border-yellow-400 overflow-hidden bg-black/60 flex items-center justify-center">
+                    <div class="food-img" style="background-image: url('${sec.image}')"></div>
                 </div>
             `;
 
@@ -233,7 +278,7 @@
 
                 <div class="flex flex-col ${isLast ? 'justify-start' : 'justify-between'} h-full py-6 gap-6">
                     ${sections.map((s, i) => `
-                        <div class="section">
+                        <div class="section ${s.compact ? 'compact' : ''}">
                             ${renderSection(s, i % 2)}
                         </div>
                     `).join("")}
@@ -251,7 +296,9 @@
         // once "Hot & Cold Beverages" appears, end that page immediately
         // so the following section starts on the next page.
         const pageCapacities = [3, 2];
-        const forcedPageBreakAfter = "Hot & Cold Beverages ☕🥤";
+        const forcePageBreakAfter = new Set([
+            "Hot & Cold Beverages ☕🥤"
+        ]);
         const pages = [];
         let currentPage = [];
         let pageIndex = 0;
@@ -270,7 +317,7 @@
         MENU_DATA.forEach((section) => {
             currentPage.push(section);
 
-            if (section.title === forcedPageBreakAfter) {
+            if (forcePageBreakAfter.has(section.title)) {
                 pushCurrentPage();
                 return;
             }

@@ -42,6 +42,7 @@ const MENU_DATA = [
     },
     {
     title: "Signature Veg Pizzas",
+    compact: true,
     type: "3",
     labels: ["S", "M", "L"],
     image: "signature.png",
@@ -104,6 +105,7 @@ const MENU_DATA = [
     ]
 },{
     title: "Royal Paneer Collection 👑",
+    compact: true,
     type: "3",
     labels: ["S", "M", "L"],
     image: "paneer.png",
