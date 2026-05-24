@@ -178,19 +178,7 @@ const MENU_DATA = [
             { name: "Paneer Tikka Stuffed", prices: ["169"] }
         ]
     },
-    {
-    title: "Pizza Bread Fusion Combo 🍕🥪🥤",
-    type: "3",
-    labels: ["S", "M", "L"],
-    image: "pizza-bread-fusion.png",
-    items: [
-        {
-            name: "Pizza Bread Fusion + Cold Coffee",
-            toppings: "(Golden Corn, Black Olive, Capsicum, Red Pepper,Cheese + Garlic Bread Stuffed)",
-            prices: ["__", "__", "__"]
-        }
-    ]
-},
+    
     {
         title: "Grilled Sandwiches 🥪",
         type: "1",
@@ -272,7 +260,21 @@ const MENU_DATA = [
             { name: "Mix Veg Paratha (2 Pieces)", prices: ["99"] },
             { name: "Paneer Paratha (2 Pieces)", prices: ["129"] }
         ]
-    },{
+    },
+    {
+    title: "Pizza Bread Fusion Combo 🍕🥪🥤",
+    type: "3",
+    labels: ["S", "M", "L"],
+    image: "pizza-bread-fusion.png",
+    items: [
+        {
+            name: "Pizza Bread Fusion + Cold Coffee",
+            toppings: "(Golden Corn, Black Olive, Capsicum, Red Pepper,Cheese + Garlic Bread Stuffed)",
+            prices: ["__", "__", "__"]
+        }
+    ]
+},
+    {
     title: "Wok Rice Bowls 🍚",
     type: "2",
     labels: ["H", "F"],
