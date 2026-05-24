@@ -247,26 +247,40 @@
         // Cover is already fixed as page 1.
         // Content pages rule:
         // page 2 => 3 items, page 3 => 2 items, remaining => 3 items each.
-        const data = [...MENU_DATA];
+        // Special case:
+        // once "Hot & Cold Beverages" appears, end that page immediately
+        // so the following section starts on the next page.
+        const pageCapacities = [3, 2];
+        const forcedPageBreakAfter = "Hot & Cold Beverages ☕🥤";
         const pages = [];
+        let currentPage = [];
+        let pageIndex = 0;
 
-        function takePageItems(count) {
-            const pageItems = [];
-            for (let i = 0; i < count && data.length; i++) {
-                pageItems.push(data.shift());
+        function getPageCapacity(index) {
+            return pageCapacities[index] || 3;
+        }
+
+        function pushCurrentPage() {
+            if (!currentPage.length) return;
+            pages.push(currentPage);
+            currentPage = [];
+            pageIndex++;
+        }
+
+        MENU_DATA.forEach((section) => {
+            currentPage.push(section);
+
+            if (section.title === forcedPageBreakAfter) {
+                pushCurrentPage();
+                return;
             }
-            return pageItems;
-        }
 
-        const secondPageItems = takePageItems(3);
-        if (secondPageItems.length) pages.push(secondPageItems);
+            if (currentPage.length === getPageCapacity(pageIndex)) {
+                pushCurrentPage();
+            }
+        });
 
-        const thirdPageItems = takePageItems(2);
-        if (thirdPageItems.length) pages.push(thirdPageItems);
-
-        while (data.length) {
-            pages.push(takePageItems(3));
-        }
+        pushCurrentPage();
 
         // =====================
         // RENDER
