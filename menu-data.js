@@ -287,6 +287,18 @@ const MENU_DATA = [
         { name: "Manchurian Rice", prices: ["__", "__"] }
     ]
 },{
+    title: "Sweet Corn Specials 🌽",
+    type: "1",
+    labels: [""],
+    image: "sweet-corn.png",
+    items: [
+        { name: "Salted Sweet Corn", prices: ["__"] },
+        { name: "Peri Peri Sweet Corn", prices: ["__"] },
+        { name: "Chat Masala Sweet Corn", prices: ["__"] },
+        { name: "Black Pepper Sweet Corn", prices: ["__"] },
+        { name: "Hot & Spicy Sweet Corn", prices: ["__"] }
+    ]
+},{
     title: "Drinks Corner  🥤",
     type: "2",
     labels: ["H", "F"],
