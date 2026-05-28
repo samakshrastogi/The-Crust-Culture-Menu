@@ -256,9 +256,9 @@ const MENU_DATA = [
         labels: [""],
         image: "paratha.png",
         items: [
-            { name: "Aloo Paratha (2 Pieces)", prices: ["79"] },
-            { name: "Mix Veg Paratha (2 Pieces)", prices: ["99"] },
-            { name: "Paneer Paratha (2 Pieces)", prices: ["129"] }
+            { name: "Aloo Paratha (2 Pieces)", prices: ["__"] },
+            { name: "Mix Veg Paratha (2 Pieces)", prices:["__"] },
+            { name: "Paneer Paratha (2 Pieces)", prices: ["__"] }
         ]
     },
     {
@@ -300,7 +300,7 @@ const MENU_DATA = [
         { name: "Sweet Lassi", prices: ["49"] },
         { name: "Shikanji", prices: ["49"] },
         { name: "Lemon Soda", prices: ["69"] },
-        { name: "Cold Coffee", prices: ["49", "79"] },
+        { name: "Cold Coffee", prices: ["59", "79"] },
         { name: "Cold Coffee with Ice Cream", prices: ["119"] },
         { name: "Oreo Shake", prices: ["__","__"] },
         { name: "Kitkat Shake", prices: ["__","__"] },
