@@ -287,7 +287,7 @@ const MENU_DATA = [
         { name: "Manchurian Rice", prices: ["__", "__"] }
     ]
 },{
-    title: "Drinks Corner 🥤",
+    title: "Drinks Corner  🥤",
     type: "2",
     labels: ["H", "F"],
     image: "drinks.png",
