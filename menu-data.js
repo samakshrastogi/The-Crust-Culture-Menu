@@ -210,6 +210,19 @@ const MENU_DATA = [
         ]
     },
     {
+    title: "Sweet Corn Specials 🌽",
+    type: "1",
+    labels: [""],
+    image: "sweet-corn.png",
+    items: [
+        { name: "Salted", prices: ["__"] },
+        { name: "Peri Peri", prices: ["__"] },
+        { name: "Chat Masala", prices: ["__"] },
+        { name: "Black Pepper", prices: ["__"] },
+        { name: "Hot & Spicy", prices: ["__"] }
+    ]
+},
+    {
         title: "Maggi Mania 🍜",
         type: "2",
         labels: ["H", "F"],
@@ -285,18 +298,6 @@ const MENU_DATA = [
         { name: "Paneer", prices: ["__", "__"] },
         { name: "Chinese", prices: ["__", "__"] },
         { name: "Manchurian Rice", prices: ["__", "__"] }
-    ]
-},{
-    title: "Sweet Corn Specials 🌽",
-    type: "1",
-    labels: [""],
-    image: "sweet-corn.png",
-    items: [
-        { name: "Salted Sweet Corn", prices: ["__"] },
-        { name: "Peri Peri Sweet Corn", prices: ["__"] },
-        { name: "Chat Masala Sweet Corn", prices: ["__"] },
-        { name: "Black Pepper Sweet Corn", prices: ["__"] },
-        { name: "Hot & Spicy Sweet Corn", prices: ["__"] }
     ]
 },{
     title: "Drinks Corner  🥤",
