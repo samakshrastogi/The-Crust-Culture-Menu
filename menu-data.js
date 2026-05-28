@@ -185,12 +185,12 @@ const MENU_DATA = [
         labels: [""],
         image: "sandwhich.png",
         items: [
-            { name: "Veg Grill Sandwich", prices: ["79"] },
-            { name: "Veg, Golden Corn", prices: ["89"] },
+            { name: "Veg Grill Sandwich", prices: ["89"] },
+            { name: "Veg, Golden Corn", prices: ["99"] },
             { name: "Paneer Special", prices: ["119"] },
             { name: "Cheese Special", prices: ["119"] },
             { name: "Cheese & Paneer Special", prices: ["139"] },
-            { name: "Golden Corn & Cheese", prices: ["129"] }
+            { name: "Golden Corn & Cheese", prices: ["139"] }
         ]
     },
     {
