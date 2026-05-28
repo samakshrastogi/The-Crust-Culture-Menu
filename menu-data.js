@@ -287,7 +287,7 @@ const MENU_DATA = [
         { name: "Manchurian Rice", prices: ["__", "__"] }
     ]
 },{
-    title: "Hot & Cold Beverages ☕🥤",
+    title: "Drinks Corner 🥤",
     type: "2",
     labels: ["H", "F"],
     image: "drinks.png",
@@ -297,14 +297,22 @@ const MENU_DATA = [
         { name: "Lemon Honey Tea", prices: ["49"] },
         { name: "Hot Coffee", prices: ["49"] },
         { name: "Black Coffee", prices: ["49"] },
+
         { name: "Sweet Lassi", prices: ["49"] },
         { name: "Shikanji", prices: ["49"] },
         { name: "Lemon Soda", prices: ["69"] },
+        { name: "Fresh Lime Soda", prices: ["__"] },
         { name: "Cold Coffee", prices: ["59", "79"] },
         { name: "Cold Coffee with Ice Cream", prices: ["119"] },
-        { name: "Oreo Shake", prices: ["__","__"] },
-        { name: "Kitkat Shake", prices: ["__","__"] },
-        { name: "Cold Drink", prices: ["MRP"] }
+        { name: "Blueberry", prices: ["__"] },
+        { name: "Orange", prices: ["__"] },
+        { name: "Green Apple", prices: ["__"] },
+        { name: "Virgin", prices: ["__"] },
+        { name: "Watermelon", prices: ["__"] },
+        { name: "Black Current", prices: ["__"] },
+        { name: "Oreo Shake", prices: ["__"] },
+        { name: "Kitkat Shake", prices: ["__"] },
+        { name: "Chocolate Shake", prices: ["__"] }
     ]
 },
     {
