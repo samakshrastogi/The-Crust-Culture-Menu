@@ -107,6 +107,48 @@
             width: 50px;
         }
 
+        .page.dense-four {
+            padding: 50px 56px;
+        }
+
+        .page.dense-four .section {
+            gap: 26px;
+        }
+
+        .page.dense-four .menu-copy {
+            width: 550px;
+        }
+
+        .page.dense-four .food-frame {
+            width: 205px;
+            height: 205px;
+        }
+
+        .page.dense-four .ribbon {
+            padding: 0 22px 9px;
+            letter-spacing: 2.4px;
+        }
+
+        .page.dense-four .menu-item {
+            padding: 1px 0;
+        }
+
+        .page.dense-four .price-col {
+            width: 50px;
+        }
+
+        .availability-note {
+            position: absolute;
+            top: 34px;
+            right: 52px;
+            color: #facc15;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            z-index: 2;
+        }
+
         h1 {
             text-shadow:
                 0 0 15px rgba(250, 204, 21, 0.6),
@@ -149,8 +191,8 @@
         <div class="absolute inset-0 border-4 border-yellow-400"></div>
         <div class="absolute inset-5 border border-yellow-400"></div>
 
-        <img src="header.png" class="absolute top-6 w-[420px] opacity-90">
-        <img src="header.png" class="absolute top-[480px] w-[260px] opacity-90">
+        <img src="images/header.png" class="absolute top-6 w-[420px] opacity-90">
+        <img src="images/header.png" class="absolute top-[480px] w-[260px] opacity-90">
 
         <div class="menu-glow"></div>
 
@@ -192,14 +234,14 @@
             shadow-[0_0_40px_rgba(234,179,8,0.25)]">
             <div class="flex flex-col items-center">
                 <div class="bg-white rounded-md shadow-lg">
-                    <img src="zomato-qr.png" class="w-[120px] h-[120px]">
+                    <img src="images/zomato-qr.png" class="w-[120px] h-[120px]">
                 </div>
                 <span class="text-xs mt-2 text-yellow-400 tracking-wider">SCAN FOR ZOMATO OFFERS</span>
             </div>
 
             <div class="flex flex-col items-center">
                 <div class="bg-white rounded-md shadow-lg">
-                    <img src="whatsapp-qr.png" class="w-[120px] h-[120px]">
+                    <img src="images/whatsapp-qr.png" class="w-[120px] h-[120px]">
                 </div>
                 <span class="text-xs mt-2 text-yellow-400 tracking-wider">EXCLUSIVE OFFERS</span>
             </div>
@@ -271,12 +313,15 @@
         // ✅ BUILD PAGE
         function buildPage(sections, isLast = false) {
             let el = document.createElement("div");
-            el.className = "page bg-luxury text-white";
+            const isDenseFour = sections.length === 4;
+            const showAvailability = sections[0]?.title === "Extra Toppings";
+            el.className = `page bg-luxury text-white ${isDenseFour ? "dense-four" : ""}`;
 
             el.innerHTML = `
                 <div class="absolute inset-0 border-4 border-yellow-400"></div>
+                ${showAvailability ? `<div class="availability-note">Available upto 11:00 pm</div>` : ""}
 
-                <div class="flex flex-col ${isLast ? 'justify-start' : 'justify-between'} h-full py-6 gap-6">
+                <div class="flex flex-col ${isLast ? 'justify-start' : 'justify-between'} h-full ${isDenseFour ? 'py-2 gap-2' : 'py-6 gap-6'}">
                     ${sections.map((s, i) => `
                         <div class="section ${s.compact ? 'compact' : ''}">
                             ${renderSection(s, i % 2)}
@@ -303,7 +348,8 @@
         let currentPage = [];
         let pageIndex = 0;
 
-        function getPageCapacity(index) {
+        function getPageCapacity(index, sections = currentPage) {
+            if (sections[0]?.title === "Sweet Corn Specials 🌽") return 4;
             return pageCapacities[index] || 3;
         }
 
