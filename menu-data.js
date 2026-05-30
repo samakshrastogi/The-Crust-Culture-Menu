@@ -266,6 +266,8 @@ const MENU_DATA = [
       { name: "Salted Smilies", prices: ["89", "159"] },
       { name: "Cheese Fries", prices: ["99", "179"] },
       { name: "Peri Peri Smilies", prices: ["99", "169"] },
+      { name: "Chilli Potato", prices: ["119", "199"] },
+      { name: "Honey Chilli Potato", prices: ["129", "199"] },
     ],
   },
   {
@@ -367,9 +369,9 @@ const MENU_DATA = [
     image: "images/chinese.png",
     items: [
       { name: "Dry Manchurian", prices: ["99", "189"] },
-      { name: "Chilli Potato", prices: ["119", "199"] },
+      
       { name: "Gravy Manchurian", prices: ["129", "199"] },
-      { name: "Honey Chilli Potato", prices: ["129", "199"] },
+      
     ],
   },
 
