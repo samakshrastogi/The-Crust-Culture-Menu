@@ -216,11 +216,11 @@ const MENU_DATA = [
     labels: [""],
     image: "images/sweet-corn.png",
     items: [
-      { name: "Salted", prices: ["__"] },
-      { name: "Peri Peri", prices: ["__"] },
-      { name: "Chat Masala", prices: ["__"] },
-      { name: "Black Pepper", prices: ["__"] },
-      { name: "Hot & Spicy", prices: ["__"] },
+      { name: "Salted", prices: ["49"] },
+      { name: "Peri Peri", prices: ["49"] },
+      { name: "Chat Masala", prices: ["49"] },
+      { name: "Black Pepper", prices: ["49"] },
+      { name: "Hot & Spicy", prices: ["49"] },
     ],
   },
   {
