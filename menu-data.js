@@ -270,6 +270,19 @@ const MENU_DATA = [
       { name: "Honey Chilli Potato", prices: ["129", "199"] },
     ],
   },
+    {
+    title: "Wok Rice Bowls 🍚",
+    type: "2",
+    labels: ["H", "F"],
+    image: "images/rice.png",
+    items: [
+      { name: "Veg Fried Rice", prices: ["__", "__"] },
+      { name: "Schezwan", prices: ["__", "__"] },
+      { name: "Paneer", prices: ["__", "__"] },
+      { name: "Chinese", prices: ["__", "__"] },
+      { name: "Manchurian Rice", prices: ["__", "__"] },
+    ],
+  },
   {
     title: "Drinks Corner  🥤",
     type: "2",
@@ -324,19 +337,7 @@ const MENU_DATA = [
       },
     ],
   },
-  {
-    title: "Wok Rice Bowls 🍚",
-    type: "2",
-    labels: ["H", "F"],
-    image: "images/rice.png",
-    items: [
-      { name: "Veg Fried Rice", prices: ["__", "__"] },
-      { name: "Schezwan", prices: ["__", "__"] },
-      { name: "Paneer", prices: ["__", "__"] },
-      { name: "Chinese", prices: ["__", "__"] },
-      { name: "Manchurian Rice", prices: ["__", "__"] },
-    ],
-  },
+
   {
     title: "Crispy Starters 🍢",
     type: "2",
