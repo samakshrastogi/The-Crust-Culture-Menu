@@ -223,6 +223,7 @@ const MENU_DATA = [
       { name: "Hot & Spicy", prices: ["49"] },
       { name: "Tandoori", prices: ["69"] },
       { name: "Mint", prices: ["69"] },
+      { name: "Cheese", prices: ["99"] },
     ],
 },
   {
