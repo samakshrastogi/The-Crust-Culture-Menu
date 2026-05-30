@@ -221,8 +221,10 @@ const MENU_DATA = [
       { name: "Chat Masala", prices: ["49"] },
       { name: "Black Pepper", prices: ["49"] },
       { name: "Hot & Spicy", prices: ["49"] },
+      { name: "Tandoori", prices: ["69"] },
+      { name: "Mint", prices: ["69"] },
     ],
-  },
+},
   {
     title: "Maggi Mania 🍜",
     type: "2",
