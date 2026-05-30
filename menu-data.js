@@ -349,7 +349,7 @@ const MENU_DATA = [
       { name: "Veg Nuggets", prices: ["69", "119"] },
       { name: "Cheese Jalapeno Poppers", prices: ["69", "119"] },
       { name: "Cheese Corn Nuggets", prices: ["89", "149"] },
-      { name: "Malai Chaap", prices: ["129", "199"] },
+    
     ],
   },
   {
@@ -360,7 +360,7 @@ const MENU_DATA = [
     items: [
       { name: "Vada Pav", prices: ["49"] },
       { name: "Pav Bhaji(2 Pav)", prices: ["99"] },
-      { name: "Extra Pav", prices: ["25"] },
+      { name: "Extra Pav", prices: ["29"] },
     ],
   },
   {
