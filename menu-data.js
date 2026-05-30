@@ -209,8 +209,7 @@ const MENU_DATA = [
       { name: "Double Cheese", prices: ["99"] },
       { name: "Cheese & Paneer", prices: ["119"] },
     ],
-  },
-  {
+  },{
     title: "Sweet Corn Specials 🌽",
     type: "1",
     labels: [""],
@@ -223,7 +222,6 @@ const MENU_DATA = [
       { name: "Hot & Spicy", prices: ["49"] },
       { name: "Tandoori", prices: ["69"] },
       { name: "Mint", prices: ["69"] },
-      { name: "Veggies", prices: ["69"] },
       { name: "Schezwan", prices: ["69"] },
       { name: "Butter Masala", prices: ["69"] },
       { name: "Creamy", prices: ["69"] },
