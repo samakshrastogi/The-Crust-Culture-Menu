@@ -59,6 +59,28 @@
         .price-col {
             width: 60px;
             text-align: center;
+            white-space: nowrap;
+        }
+
+        .single-price {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .packaged-price {
+            width: 180px;
+            min-width: 180px;
+            max-width: 180px;
+            display: flex;
+            align-items: flex-start;
+            position: relative;
+            white-space: nowrap;
+            overflow: visible;
+        }
+
+        .price-note {
+            position: absolute;
+            left: 60px;
         }
 
         .section {
@@ -272,7 +294,26 @@
                     ${sec.labels.map(l => `<div class="price-col price-label text-xs text-yellow-300">${l}</div>`).join("")}
                 </div>` : "";
 
-            const items = sec.items.map(i => `
+            const items = sec.items.map(i => {
+                const hasSingleInlinePrice = i.prices.length === 1 && sec.labels && sec.labels.length > 1;
+                const priceCells = i.prices.map(p => {
+                    const packagedPrice = p.match(/^(\d+)\s*(\(.+\))$/);
+
+                    if (packagedPrice) {
+                        return `
+                            <div class="packaged-price text-yellow-400">
+                                <div class="price-col">${packagedPrice[1]}</div>
+                                <div class="price-note">${packagedPrice[2]}</div>
+                            </div>
+                        `;
+                    }
+
+                    return `
+                        <div class="${hasSingleInlinePrice ? 'single-price' : 'price-col'} text-yellow-400">${p}</div>
+                    `;
+                }).join("");
+
+                return `
                 <div class="menu-item grid grid-cols-[1fr_auto] items-start gap-x-3 py-1">
                     <div class="min-w-0">
                         <div class="flex items-center">
@@ -288,10 +329,11 @@
                     </div>
 
                     <div class="flex pt-[1px]">
-                        ${i.prices.map(p => `<div class="price-col text-yellow-400">${p}</div>`).join("")}
+                        ${priceCells}
                     </div>
                 </div>
-            `).join("");
+            `;
+            }).join("");
 
             const text = `
                 <div class="menu-copy flex flex-col w-[520px]">
@@ -350,6 +392,7 @@
 
         function getPageCapacity(index, sections = currentPage) {
             if (sections[0]?.title === "Sweet Corn Specials 🌽") return 4;
+            if (sections[0]?.title === "Garlic Breads & Sides 🥖") return 4;
             return pageCapacities[index] || 3;
         }
 

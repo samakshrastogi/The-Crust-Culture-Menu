@@ -9,7 +9,8 @@ const MENU_DATA = [
       { name: "Cheese", prices: ["30", "60", "90"] },
       { name: "Paneer", prices: ["30", "50", "80"] },
       { name: "Cheese Burst", prices: ["60", "90", "120"] },
-      { name: "Oregano, Chilli Flakes, Ketchup", prices: ["2Rs"] },
+      { name: "Extra Dip", prices: ["25", "40"] },
+      { name: "Oregano, Chilli Flakes, Ketchup", prices: ["2 Rs"] },
     ],
   },
   {
@@ -18,6 +19,7 @@ const MENU_DATA = [
     labels: ["S", "M", "L"],
     image: "images/everyday-classics.png",
     items: [
+      { name: "Classic", prices: ["49 (Packaging Fee 10 Rs)"] },
       { name: "Onion", prices: ["89", "179", "269"] },
       { name: "Tomato", prices: ["89", "179", "269"] },
       { name: "Capsicum", prices: ["89", "179", "269"] },
@@ -209,7 +211,19 @@ const MENU_DATA = [
       { name: "Double Cheese", prices: ["99"] },
       { name: "Cheese & Paneer", prices: ["119"] },
     ],
-  },{
+  },
+  {
+    title: "Mumbai Street Special 🌆🍔",
+    type: "1",
+    labels: [""],
+    image: "images/mumbai-street.png",
+    items: [
+      { name: "Vada Pav", prices: ["49"] },
+      { name: "Pav Bhaji (2 Pav)", prices: ["99"] },
+      { name: "Extra Pav", prices: ["29"] },
+    ],
+  },
+  {
     title: "Sweet Corn Specials 🌽",
     type: "1",
     labels: [""],
@@ -350,17 +364,6 @@ const MENU_DATA = [
       { name: "Cheese Jalapeno Poppers", prices: ["69", "119"] },
       { name: "Cheese Corn Nuggets", prices: ["89", "149"] },
     
-    ],
-  },
-  {
-    title: "Mumbai Street Specials 🌆🍔",
-    type: "1",
-    labels: [""],
-    image: "images/mumbai-street.png",
-    items: [
-      { name: "Vada Pav", prices: ["49"] },
-      { name: "Pav Bhaji(2 Pav)", prices: ["99"] },
-      { name: "Extra Pav", prices: ["29"] },
     ],
   },
   {
