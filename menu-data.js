@@ -69,11 +69,7 @@ const MENU_DATA = [
         toppings: "(Onion, Capsicum, Jalapeno, Tomato, Cheese)",
         prices: ["149", "269", "369"],
       },
-      {
-        name: "Veg Loaded Pizza",
-        toppings: "(Golden Corn, Tomato, Jalapeno, Mushroom, Cheese)",
-        prices: ["149", "269", "349"],
-      },
+      
       {
         name: "Fresh Veggie",
         toppings: "(Onion, Capsicum, Extra Cheese)",
@@ -83,6 +79,11 @@ const MENU_DATA = [
         name: "Black Lover Loaded",
         toppings: "(Black Olive, Golden Corn, Capsicum, Cheese)",
         prices: ["149", "229", "349"],
+      },
+      {
+        name: "Veg Loaded Pizza",
+        toppings: "(Golden Corn, Tomato, Jalapeno, Mushroom, Cheese)",
+        prices: ["169", "289", "369"],
       },
       {
         name: "Classic Indian Pizza",
