@@ -25,8 +25,8 @@ const MENU_DATA = [
       { name: "Capsicum", prices: ["89", "179", "269"] },
       { name: "Golden Corn", prices: ["99", "189", "299"] },
       { name: "Margherita", prices: ["99", "199", "319"] },
-      { name: "Golden Corn & Cheese", prices: ["119", "219", "349"] },
-      { name: "Double Cheese Margherita", prices: ["119", "219", "349"] },
+      { name: "Golden Corn & Cheese", prices: ["129", "219", "329"] },
+      { name: "Double Cheese Margherita", prices: ["129", "219", "329"] },
     ],
   },
   {
