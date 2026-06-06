@@ -142,12 +142,12 @@ const MENU_DATA = [
       {
         name: "Paneer Special",
         toppings: "(Red Pepper, Onion, Capsicum, Paneer, Cheese)",
-        prices: ["189", "299", "389"],
+        prices: ["189", "299", "369"],
       },
       {
         name: "Veg + Paneer Loaded",
         toppings: "(Onion, Capsicum, Golden Corn, Paneer, Cheese)",
-        prices: ["189", "299", "389"],
+        prices: ["189", "299", "369"],
       },
       {
         name: "Pappy Paneer",
