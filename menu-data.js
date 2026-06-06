@@ -92,7 +92,7 @@ const MENU_DATA = [
       },
       {
         name: "Farmhouse Pizza",
-        toppings: "(Onion, Capsicum, Tomato, Mushroom, Extra Cheese)",
+        toppings: "(Onion, Capsicum, Tomato, Mushroom, Cheese)",
         prices: ["199", "319", "399"],
       },
       {
