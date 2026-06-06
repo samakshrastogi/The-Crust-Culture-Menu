@@ -121,7 +121,7 @@ const MENU_DATA = [
       },
       {
         name: "Paneer Onion",
-        prices: ["149", "249", "329"],
+        prices: ["149", "289", "349"],
       },
       {
         name: "Hot Peri Paneer",
