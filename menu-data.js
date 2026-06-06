@@ -286,18 +286,19 @@ const MENU_DATA = [
       { name: "Honey Chilli Potato", prices: ["129", "199"] },
     ],
   },
-    {
+{
   title: "Wraps 🌯",
   type: "2",
   labels: ["H", "F"],
   image: "images/wraps.png",
   items: [
-    { name: "Veg Wrap", prices: ["99", "149"] },
-    { name: "Paneer Tikka Wrap", prices: ["129", "179"] },
-    { name: "Cheese & Corn Wrap", prices: ["119", "169"] },
-    { name: "Aloo Tikki Wrap", prices: ["109", "159"] },
+    { name: "Veg", prices: ["99", "149"] },
+    { name: "Paneer Tikka", prices: ["129", "179"] },
+    { name: "Cheese & Corn", prices: ["119", "169"] },
+    { name: "Aloo Tikki", prices: ["109", "159"] },
   ],
 },
+  
   {
     title: "Drinks Corner  🥤",
     type: "2",
@@ -327,6 +328,20 @@ const MENU_DATA = [
       { name: "Chocolate Shake", prices: ["__"] },
     ],
   },
+  
+{
+title: "Wok Rice Bowls 🍚",
+type: "2",
+labels: ["H", "F"],
+image: "images/rice.png",
+items: [
+{ name: "Veg Fried Rice", prices: ["", ""] },
+{ name: "Schezwan", prices: ["", ""] },
+{ name: "Paneer", prices: ["", ""] },
+{ name: "Chinese", prices: ["", ""] },
+{ name: "Manchurian Rice", prices: ["", ""] },
+],
+},
   {
     title: "Stuffed Parathas 🫓",
     type: "1",
