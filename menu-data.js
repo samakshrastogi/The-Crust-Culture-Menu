@@ -62,12 +62,12 @@ const MENU_DATA = [
       {
         name: "Sweet Fiesta",
         toppings: "(Sweet Corn, Jalapeno, Cheese)",
-        prices: ["149", "269", "369"],
+        prices: ["149", "249", "349"],
       },
       {
         name: "Maxican Pizza",
         toppings: "(Onion, Capsicum, Jalapeno, Tomato, Cheese)",
-        prices: ["149", "249", "349"],
+        prices: ["149", "269", "349"],
       },
       
       {
