@@ -76,7 +76,7 @@ const MENU_DATA = [
         prices: ["149", "269", "349"],
       },
       {
-        name: "Black Lover Loaded",
+        name: "Black Gold Pizza",
         toppings: "(Black Olive, Golden Corn, Capsicum, Cheese)",
         prices: ["149", "229", "349"],
       },
