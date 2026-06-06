@@ -264,9 +264,9 @@ const MENU_DATA = [
     labels: ["H", "F"],
     image: "images/momos.png",
     items: [
-      { name: "Veg Steam Momo", prices: ["49", "89"] },
+      
       { name: "Veg Fried Momo", prices: ["49", "99"] },
-      { name: "Paneer Steam Momo", prices: ["69", "129"] },
+     
       { name: "Paneer Fried Momo", prices: ["69", "129"] },
     ],
   },
@@ -279,9 +279,9 @@ const MENU_DATA = [
       { name: "Classic Salted", prices: ["69", "129"] },
       { name: "Peri Peri Fries", prices: ["79", "129"] },
       { name: "Butter Masala", prices: ["89", "169"] },
-      { name: "Salted Smilies", prices: ["89", "159"] },
+      
       { name: "Cheese Fries", prices: ["99", "179"] },
-      { name: "Peri Peri Smilies", prices: ["99", "169"] },
+     
       { name: "Chilli Potato", prices: ["119", "199"] },
       { name: "Honey Chilli Potato", prices: ["129", "199"] },
     ],
