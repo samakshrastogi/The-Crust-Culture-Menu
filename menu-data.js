@@ -162,7 +162,7 @@ const MENU_DATA = [
       {
         name: "Paneer Makhni",
         toppings: "(Cheese, Capsicum, Onion, Red Pepper, Paneer Tikka)",
-        prices: ["199", "319", "449"],
+        prices: ["199", "299", "369"],
       },
       {
         name: "Double Paneer Premium",
