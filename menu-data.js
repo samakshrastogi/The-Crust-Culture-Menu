@@ -105,7 +105,7 @@ const MENU_DATA = [
         name: "Paradise Pizza",
         toppings:
           "(Golden Corn, Black Olive, Capsicum, Red Pepper, Extra Cheese)",
-        prices: ["229", "329", "399"],
+        prices: ["229", "329", "419"],
       },
     ],
   },
