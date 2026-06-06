@@ -123,11 +123,7 @@ const MENU_DATA = [
         name: "Paneer Onion",
         prices: ["149", "289", "349"],
       },
-      {
-        name: "Hot Peri Paneer",
-        toppings: "(Peri Peri, Paneer, Hot Sauce, Red Peprika, Cheese)",
-        prices: ["169", "249", "319"],
-      },
+      
       {
         name: "Paneer Onion Capsicum",
         prices: ["159", "269", "329"],
@@ -136,6 +132,11 @@ const MENU_DATA = [
         name: "Cheesy Corn Paneer",
         toppings: "(Golden Corn, Paneer, Cheese)",
         prices: ["159", "269", "329"],
+      },
+      {
+        name: "Hot Peri Paneer",
+        toppings: "(Peri Peri, Paneer, Hot Sauce, Red Peprika, Cheese)",
+        prices: ["169", "249", "349"],
       },
       {
         name: "Paneer Special",
