@@ -118,16 +118,16 @@ const MENU_DATA = [
     items: [
       {
         name: "Paneer Capsicum",
-        prices: ["149", "249", "329"],
+        prices: ["149", "249", "349"],
       },
       {
         name: "Paneer Onion",
-        prices: ["149", "289", "349"],
+        prices: ["149", "249", "349"],
       },
       
       {
         name: "Paneer Onion Capsicum",
-        prices: ["159", "269", "329"],
+        prices: ["159", "269", "349"],
       },
       {
         name: "Cheesy Corn Paneer",
