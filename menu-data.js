@@ -289,7 +289,7 @@ const MENU_DATA = [
 {
   title: "Wraps 🌯",
   type: "2",
-  labels: ["H", "F"],
+  labels: [""],
   image: "images/wraps.png",
   items: [
     { name: "Veg", prices: ["99"] },
