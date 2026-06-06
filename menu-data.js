@@ -36,7 +36,7 @@ const MENU_DATA = [
     image: "images/veg-combo.png",
     items: [
       { name: "Golden Corn + Onion", prices: ["99", "199", "299"] },
-      { name: "Onion + Capsicum", prices: ["99", "189", "299"] },
+      { name: "Onion + Capsicum", prices: ["99", "199", "299"] },
       { name: "Tomato + Golden Corn", prices: ["99", "199", "299"] },
       { name: "Golden Corn + Jalapeno", prices: ["99", "199", "299"] },
       { name: "Capsicum + Red Peperika", prices: ["99", "199", "299"] },
