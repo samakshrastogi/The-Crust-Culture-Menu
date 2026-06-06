@@ -292,10 +292,10 @@ const MENU_DATA = [
   labels: ["H", "F"],
   image: "images/wraps.png",
   items: [
-    { name: "Veg", prices: ["99", "149"] },
-    { name: "Paneer Tikka", prices: ["129", "179"] },
-    { name: "Cheese & Corn", prices: ["119", "169"] },
-    { name: "Aloo Tikki", prices: ["109", "159"] },
+    { name: "Veg", prices: ["99"] },
+    { name: "Aloo Tikki", prices: ["109"] },
+    { name: "Cheese & Corn", prices: ["119"] },
+    { name: "Paneer Tikka", prices: ["129"] },
   ],
 },
   
