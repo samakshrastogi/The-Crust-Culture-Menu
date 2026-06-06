@@ -52,7 +52,7 @@ const MENU_DATA = [
       {
         name: "Fiesta Popper",
         toppings: "(Capsicum, Jalapeno, Red Pepper)",
-        prices: ["139", "249", "349"],
+        prices: ["139", "239", "329"],
       },
       {
         name: "Four Seasons Veg Pizza",
@@ -67,7 +67,7 @@ const MENU_DATA = [
       {
         name: "Maxican Pizza",
         toppings: "(Onion, Capsicum, Jalapeno, Tomato, Cheese)",
-        prices: ["149", "269", "369"],
+        prices: ["149", "249", "349"],
       },
       
       {
@@ -78,7 +78,7 @@ const MENU_DATA = [
       {
         name: "Black Gold Pizza",
         toppings: "(Black Olive, Golden Corn, Capsicum, Cheese)",
-        prices: ["149", "229", "349"],
+        prices: ["149", "269", "349"],
       },
       {
         name: "Veg Loaded Pizza",
