@@ -99,13 +99,13 @@ const MENU_DATA = [
         name: "Extravaganza Pizza",
         toppings:
           "(Onion, Capsicum, Tomato, Mushroom, Golden Corn, Black Olive, Extra Cheese)",
-        prices: ["229", "319", "399"],
+        prices: ["229", "329", "399"],
       },
       {
         name: "Paradise Pizza",
         toppings:
           "(Golden Corn, Black Olive, Capsicum, Red Pepper, Extra Cheese)",
-        prices: ["229", "349", "449"],
+        prices: ["229", "329", "399"],
       },
     ],
   },
