@@ -345,9 +345,9 @@ const MENU_DATA = [
   image: "images/egg-specials.png",
   items: [
     { name: "Veg Omelette", prices: ["79"] },
+    { name: "Bread Omelette", prices: ["99"] },
     { name: "Egg Burger", prices: ["99"] },
     { name: "Half Fry with Bread", prices: ["99"] },
-    { name: "Bread Omelette", prices: ["99"] },
     { name: "Egg Bhurji Pav", prices: ["129"] },
     { name: "Egg Sandwich", prices: ["129"] },
     { name: "Egg Fried Rice", prices: ["149"] }
