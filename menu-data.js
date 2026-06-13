@@ -330,6 +330,15 @@ const MENU_DATA = [
     ],
   },
   {
+  title: "Poha Corner 🍋🌿",
+  type: "1",
+  labels: [""],
+  image: "images/poha.png",
+  items: [
+    { name: "Classic Veg Poha", prices: ["69"] }
+  ]
+},
+  {
   title: "Egg Specials 🥚",
   type: "1",
   labels: [""],
