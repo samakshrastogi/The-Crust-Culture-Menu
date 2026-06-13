@@ -1,3 +1,4 @@
+
 const MENU_DATA = [
   {
     title: "Extra Toppings",
@@ -292,10 +293,10 @@ const MENU_DATA = [
   labels: [""],
   image: "images/wraps.png",
   items: [
-    { name: "Veg", prices: ["99"] },
+    { name: "Veg", prices: ["89"] },
     { name: "Aloo Tikki", prices: ["109"] },
-    { name: "Cheese & Corn", prices: ["119"] },
-    { name: "Paneer Tikka", prices: ["129"] },
+    { name: "Cheese & Corn", prices: ["149"] },
+    { name: "Paneer Tikka", prices: ["149"] },
   ],
 },
   
