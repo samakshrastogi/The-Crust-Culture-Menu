@@ -329,7 +329,21 @@ const MENU_DATA = [
       { name: "Chocolate Shake", prices: ["__"] },
     ],
   },
-  
+  {
+  title: "Egg Specials 🥚",
+  type: "1",
+  labels: [""],
+  image: "images/egg-specials.png",
+  items: [
+    { name: "Veg Omelette", prices: ["79"] },
+    { name: "Egg Burger", prices: ["99"] },
+    { name: "Half Fry with Bread", prices: ["99"] },
+    { name: "Bread Omelette", prices: ["99"] },
+    { name: "Egg Bhurji Pav", prices: ["129"] },
+    { name: "Egg Sandwich", prices: ["129"] },
+    { name: "Egg Fried Rice", prices: ["149"] }
+  ]
+  },
 {
 title: "Wok Rice Bowls 🍚",
 type: "2",
