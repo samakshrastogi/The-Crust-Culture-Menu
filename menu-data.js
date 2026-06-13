@@ -335,7 +335,7 @@ const MENU_DATA = [
   labels: [""],
   image: "images/poha.png",
   items: [
-    { name: "Classic Veg Poha", prices: ["69"] }
+    { name: "Classic Veg Poha", prices: ["79","119"] }
   ]
 },
   {
