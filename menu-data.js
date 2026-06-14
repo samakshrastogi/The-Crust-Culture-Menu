@@ -299,6 +299,44 @@ const MENU_DATA = [
     { name: "Paneer Tikka", prices: ["149"] },
   ],
 },
+  {
+  title: "Poha Corner 🍋🌿",
+  type: "1",
+  labels: [""],
+  image: "images/poha.png",
+  items: [
+    { name: "Classic Veg Poha", prices: ["79","119"] }
+  ]
+},
+  
+{
+title: "Wok Rice Bowls 🍚",
+type: "2",
+labels: ["H", "F"],
+image: "images/rice.png",
+items: [
+{ name: "Veg Fried Rice", prices: ["", ""] },
+{ name: "Schezwan", prices: ["", ""] },
+{ name: "Paneer", prices: ["", ""] },
+{ name: "Chinese", prices: ["", ""] },
+{ name: "Manchurian Rice", prices: ["", ""] },
+],
+},
+  {
+  title: "Egg Specials 🥚",
+  type: "1",
+  labels: [""],
+  image: "images/egg-specials.png",
+  items: [
+    { name: "Veg Omelette", prices: ["79"] },
+    { name: "Bread Omelette", prices: ["99"] },
+    { name: "Egg Burger", prices: ["99"] },
+    { name: "Half Fry with Bread", prices: ["99"] },
+    { name: "Egg Bhurji Pav", prices: ["129"] },
+    { name: "Egg Sandwich", prices: ["129"] },
+    { name: "Egg Fried Rice", prices: ["149"] }
+  ]
+  },
   
   {
     title: "Drinks Corner  🥤",
@@ -329,43 +367,7 @@ const MENU_DATA = [
       { name: "Chocolate Shake", prices: ["__"] },
     ],
   },
-  {
-  title: "Poha Corner 🍋🌿",
-  type: "1",
-  labels: [""],
-  image: "images/poha.png",
-  items: [
-    { name: "Classic Veg Poha", prices: ["79","119"] }
-  ]
-},
-  {
-  title: "Egg Specials 🥚",
-  type: "1",
-  labels: [""],
-  image: "images/egg-specials.png",
-  items: [
-    { name: "Veg Omelette", prices: ["79"] },
-    { name: "Bread Omelette", prices: ["99"] },
-    { name: "Egg Burger", prices: ["99"] },
-    { name: "Half Fry with Bread", prices: ["99"] },
-    { name: "Egg Bhurji Pav", prices: ["129"] },
-    { name: "Egg Sandwich", prices: ["129"] },
-    { name: "Egg Fried Rice", prices: ["149"] }
-  ]
-  },
-{
-title: "Wok Rice Bowls 🍚",
-type: "2",
-labels: ["H", "F"],
-image: "images/rice.png",
-items: [
-{ name: "Veg Fried Rice", prices: ["", ""] },
-{ name: "Schezwan", prices: ["", ""] },
-{ name: "Paneer", prices: ["", ""] },
-{ name: "Chinese", prices: ["", ""] },
-{ name: "Manchurian Rice", prices: ["", ""] },
-],
-},
+  
   {
     title: "Stuffed Parathas 🫓",
     type: "1",
