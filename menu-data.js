@@ -291,7 +291,7 @@ const MENU_DATA = [
   title: "Wraps 🌯",
   type: "2",
   labels: [""],
-  image: "images/wraps.png",
+  image: "images/wraps.jpg",
   items: [
     { name: "Veg", prices: ["89"] },
     { name: "Aloo Tikki", prices: ["109"] },
