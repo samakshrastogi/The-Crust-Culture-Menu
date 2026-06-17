@@ -303,7 +303,7 @@ const MENU_DATA = [
   title: "Poha Corner 🍋🌿",
   type: "1",
   labels: [""],
-  image: "images/poha.png",
+  image: "images/poha.jpg",
   items: [
     { name: "Classic Veg Poha", prices: ["79","119"] }
   ]
@@ -326,7 +326,7 @@ items: [
   title: "Egg Specials 🥚",
   type: "1",
   labels: [""],
-  image: "images/egg-specials.png",
+  image: "images/egg.jpg",
   items: [
     { name: "Veg Omelette", prices: ["79"] },
     { name: "Bread Omelette", prices: ["99"] },
