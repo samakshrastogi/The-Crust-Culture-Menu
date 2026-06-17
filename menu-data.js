@@ -310,17 +310,17 @@ const MENU_DATA = [
 },
   
 {
-title: "Wok Rice Bowls 🍚",
-type: "2",
-labels: ["H", "F"],
-image: "images/rice.png",
-items: [
-{ name: "Veg Fried Rice", prices: ["", ""] },
-{ name: "Schezwan", prices: ["", ""] },
-{ name: "Paneer", prices: ["", ""] },
-{ name: "Chinese", prices: ["", ""] },
-{ name: "Manchurian Rice", prices: ["", ""] },
-],
+  title: "Wok Rice Bowls 🍚",
+  type: "2",
+  labels: ["H", "F"],
+  image: "images/rice.png",
+  items: [
+    { name: "Veg Fried Rice", prices: ["99", "149"] },
+    { name: "Schezwan Rice", prices: ["119", "169"] },
+    { name: "Paneer Fried Rice", prices: ["129", "199"] },
+    { name: "Chinese Rice", prices: ["129", "199"] },
+    { name: "Manchurian Rice", prices: ["149", "229"] }
+  ]
 },
   {
   title: "Egg Specials 🥚",
