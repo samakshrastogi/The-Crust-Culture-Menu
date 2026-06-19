@@ -21,9 +21,9 @@ const MENU_DATA = [
     image: "images/everyday-classics.png",
     items: [
       { name: "Classic", prices: ["49 (Packaging Fee 10 Rs)"] },
-      { name: "Onion", prices: ["89", "179", "269"] },
-      { name: "Tomato", prices: ["89", "179", "269"] },
-      { name: "Capsicum", prices: ["89", "179", "269"] },
+      { name: "Onion", prices: ["89", "189", "269"] },
+      { name: "Tomato", prices: ["89", "189", "269"] },
+      { name: "Capsicum", prices: ["89", "189", "269"] },
       { name: "Golden Corn", prices: ["99", "189", "299"] },
       { name: "Margherita", prices: ["119", "249", "329"] },
       { name: "Golden Corn & Cheese", prices: ["129", "249", "329"] },
