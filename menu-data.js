@@ -222,7 +222,7 @@ const MENU_DATA = [
     image: "images/mumbai-street.png",
     items: [
       { name: "Vada Pav", prices: ["49"] },
-      { name: "Pav Bhaji (2 Pav)", prices: ["99"] },
+      { name: "Pav Bhaji (2 Pav)", prices: ["129"] },
       { name: "Extra Pav", prices: ["29"] },
     ],
   },
