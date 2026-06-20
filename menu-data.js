@@ -223,7 +223,7 @@ const MENU_DATA = [
     items: [
       { name: "Vada Pav", prices: ["49"] },
       { name: "Pav Bhaji (2 Pav)", prices: ["129"] },
-      { name: "Extra Pav", prices: ["29"] },
+      { name: "Extra Pav", prices: ["49"] },
     ],
   },
   {
