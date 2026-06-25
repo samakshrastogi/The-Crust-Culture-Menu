@@ -345,23 +345,23 @@ const MENU_DATA = [
     image: "images/drinks.png",
     items: [
       { name: "Ginger Tea", prices: ["19"] },
-      { name: "Masala Chai", prices: ["29"] },
+    
       { name: "Lemon Honey Tea", prices: ["49"] },
       { name: "Hot Coffee", prices: ["49"] },
       { name: "Black Coffee", prices: ["49"] },
 
-      { name: "Sweet Lassi", prices: ["49"] },
-      { name: "Shikanji", prices: ["49"] },
+      
+    
       { name: "Lemon Soda", prices: ["69"] },
-      { name: "Fresh Lime Soda", prices: ["__"] },
+
       { name: "Cold Coffee", prices: ["59", "79"] },
-      { name: "Cold Coffee with Ice Cream", prices: ["119"] },
+    
       { name: "Blueberry", prices: ["__"] },
       { name: "Orange", prices: ["__"] },
       { name: "Green Apple", prices: ["__"] },
       { name: "Virgin", prices: ["__"] },
       { name: "Watermelon", prices: ["__"] },
-      { name: "Black Current", prices: ["__"] },
+      
       { name: "Oreo Shake", prices: ["__"] },
       { name: "Kitkat Shake", prices: ["__"] },
       { name: "Chocolate Shake", prices: ["__"] },
