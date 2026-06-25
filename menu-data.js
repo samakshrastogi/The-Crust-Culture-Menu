@@ -1,4 +1,3 @@
-
 const MENU_DATA = [
   {
     title: "Extra Toppings",
@@ -70,7 +69,7 @@ const MENU_DATA = [
         toppings: "(Onion, Capsicum, Jalapeno, Tomato, Cheese)",
         prices: ["149", "269", "349"],
       },
-      
+
       {
         name: "Fresh Veggie",
         toppings: "(Onion, Capsicum, Extra Cheese)",
@@ -125,7 +124,7 @@ const MENU_DATA = [
         name: "Paneer Onion",
         prices: ["149", "249", "349"],
       },
-      
+
       {
         name: "Paneer Onion Capsicum",
         prices: ["159", "269", "349"],
@@ -244,7 +243,7 @@ const MENU_DATA = [
       { name: "Creamy", prices: ["69"] },
       { name: "Cheese", prices: ["99"] },
     ],
-},
+  },
   {
     title: "Maggi Mania 🍜",
     type: "2",
@@ -265,9 +264,8 @@ const MENU_DATA = [
     labels: ["H", "F"],
     image: "images/momos.png",
     items: [
-      
       { name: "Veg Fried Momo", prices: ["49", "99"] },
-     
+
       { name: "Paneer Fried Momo", prices: ["69", "129"] },
     ],
   },
@@ -280,64 +278,98 @@ const MENU_DATA = [
       { name: "Classic Salted", prices: ["69", "129"] },
       { name: "Peri Peri Fries", prices: ["79", "129"] },
       { name: "Butter Masala", prices: ["89", "169"] },
-      
+
       { name: "Cheese Fries", prices: ["99", "179"] },
-     
+
       { name: "Chilli Potato", prices: ["119", "199"] },
       { name: "Honey Chilli Potato", prices: ["129", "199"] },
     ],
   },
-{
-  title: "Wraps 🌯",
-  type: "2",
-  labels: [""],
-  image: "images/wraps.jpg",
-  items: [
-    { name: "Veg", prices: ["89"] },
-    { name: "Aloo Tikki", prices: ["109"] },
-    { name: "Cheese & Corn", prices: ["149"] },
-    { name: "Paneer Tikka", prices: ["149"] },
-  ],
-},
   {
-  title: "Poha Corner 🍋🌿",
-  type: "1",
-  labels: [""],
-  image: "images/poha.jpg",
-  items: [
-    { name: "Classic Veg Poha", prices: ["79","119"] }
-  ]
-},
-  
-{
-  title: "Wok Rice Bowls 🍚",
-  type: "2",
-  labels: ["H", "F"],
-  image: "images/rice.png",
-  items: [
-    { name: "Veg Fried Rice", prices: ["99", "149"] },
-    { name: "Schezwan Rice", prices: ["119", "169"] },
-    { name: "Paneer Fried Rice", prices: ["129", "199"] },
-    { name: "Chinese Rice", prices: ["129", "199"] },
-    { name: "Manchurian Rice", prices: ["149", "229"] }
-  ]
-},
-  {
-  title: "Egg Specials 🥚",
-  type: "1",
-  labels: [""],
-  image: "images/egg.jpg",
-  items: [
-    { name: "Veg Omelette", prices: ["79"] },
-    { name: "Bread Omelette", prices: ["99"] },
-    { name: "Egg Burger", prices: ["99"] },
-    { name: "Half Fry with Bread", prices: ["99"] },
-    { name: "Egg Bhurji Pav", prices: ["129"] },
-    { name: "Egg Sandwich", prices: ["129"] },
-    { name: "Egg Fried Rice", prices: ["149"] }
-  ]
+    title: "Wraps 🌯",
+    type: "2",
+    labels: [""],
+    image: "images/wraps.jpg",
+    items: [
+      { name: "Veg", prices: ["89"] },
+      { name: "Aloo Tikki", prices: ["109"] },
+      { name: "Cheese & Corn", prices: ["149"] },
+      { name: "Paneer Tikka", prices: ["149"] },
+    ],
   },
-  
+  {
+    title: "Crispy Starters 🍢",
+    type: "2",
+    labels: ["H", "F"],
+    image: "images/crispy-starters.png",
+    items: [
+      { name: "Batata Vada", prices: ["49", "__"] },
+      { name: "Spring Roll", prices: ["49", "99"] },
+      { name: "Veg Nuggets", prices: ["69", "119"] },
+      { name: "Cheese Jalapeno Poppers", prices: ["69", "119"] },
+      { name: "Cheese Corn Nuggets", prices: ["89", "149"] },
+    ],
+  },
+  {
+    title: "South Indian Specials 🥥",
+    type: "1",
+    labels: [""],
+    image: "images/south-indian.png",
+    items: [
+      { name: "Idli Sambhar(2 Pieces)", prices: ["59"] },
+      { name: "Sponge Dosa(2 Pieces)", prices: ["99"] },
+      { name: "Medu Vada(4 Pieces)", prices: ["99"] },
+      { name: "Uttapam(1 Piece)", prices: ["149"] },
+    ],
+  },
+  {
+    title: "Wok Rice Bowls 🍚",
+    type: "2",
+    labels: ["H", "F"],
+    image: "images/rice.png",
+    items: [
+      { name: "Veg Fried Rice", prices: ["99", "149"] },
+      { name: "Schezwan Rice", prices: ["119", "169"] },
+      { name: "Paneer Fried Rice", prices: ["129", "199"] },
+      { name: "Chinese Rice", prices: ["129", "199"] },
+      { name: "Manchurian Rice", prices: ["149", "229"] },
+    ],
+  },
+
+  {
+    title: "Egg Specials 🥚",
+    type: "1",
+    labels: [""],
+    image: "images/egg.png",
+    items: [
+      { name: "Veg Omelette", prices: ["79"] },
+      { name: "Bread Omelette", prices: ["99"] },
+      { name: "Egg Burger", prices: ["99"] },
+      { name: "Half Fry with Bread", prices: ["99"] },
+      { name: "Egg Bhurji Pav", prices: ["129"] },
+      { name: "Egg Sandwich", prices: ["129"] },
+      { name: "Egg Fried Rice", prices: ["149"] },
+    ],
+  },
+  {
+    title: "Poha Corner 🍋🌿",
+    type: "1",
+    labels: [""],
+    image: "images/poha.jpg",
+    items: [{ name: "Classic Veg Poha", prices: ["79", "119"] }],
+  },
+  {
+    title: "Pasta Specials 🍝",
+    type: "1",
+    labels: [""],
+    image: "images/pasta.png",
+    items: [
+      { name: "Masala Pasta", prices: ["99"] },
+      { name: "Red Sauce Pasta", prices: ["129"] },
+      { name: "White Sauce Pasta", prices: ["149"] },
+    ],
+  },
+
   {
     title: "Drinks Corner  🥤",
     type: "2",
@@ -345,29 +377,27 @@ const MENU_DATA = [
     image: "images/drinks.png",
     items: [
       { name: "Ginger Tea", prices: ["19"] },
-    
+
       { name: "Lemon Honey Tea", prices: ["49"] },
       { name: "Hot Coffee", prices: ["49"] },
       { name: "Black Coffee", prices: ["49"] },
 
-      
-    
       { name: "Lemon Soda", prices: ["69"] },
 
       { name: "Cold Coffee", prices: ["59", "79"] },
-    
+
       { name: "Blueberry", prices: ["__"] },
       { name: "Orange", prices: ["__"] },
-      
+
       { name: "Virgin", prices: ["__"] },
       { name: "Watermelon", prices: ["__"] },
-      
+
       { name: "Oreo Shake", prices: ["__"] },
       { name: "Kitkat Shake", prices: ["__"] },
       { name: "Chocolate Shake", prices: ["__"] },
     ],
   },
-  
+
   {
     title: "Stuffed Parathas 🫓",
     type: "1",
@@ -395,42 +425,14 @@ const MENU_DATA = [
   },
 
   {
-    title: "Crispy Starters 🍢",
-    type: "2",
-    labels: ["H", "F"],
-    image: "images/crispy-starters.png",
-    items: [
-      { name: "Batata Vada", prices: ["49", "__"] },
-      { name: "Spring Roll", prices: ["49", "99"] },
-      { name: "Veg Nuggets", prices: ["69", "119"] },
-      { name: "Cheese Jalapeno Poppers", prices: ["69", "119"] },
-      { name: "Cheese Corn Nuggets", prices: ["89", "149"] },
-    
-    ],
-  },
-  {
     title: "Indo-Chinese Specials 🥢",
     type: "2",
     labels: ["H", "F"],
     image: "images/chinese.png",
     items: [
       { name: "Dry Manchurian", prices: ["99", "189"] },
-      
-      { name: "Gravy Manchurian", prices: ["129", "199"] },
-      
-    ],
-  },
 
-  {
-    title: "South Indian Specials 🥥",
-    type: "1",
-    labels: [""],
-    image: "images/south-indian.png",
-    items: [
-      { name: "Idli Sambhar(2 Pieces)", prices: ["59"] },
-      { name: "Sponge Dosa(2 Pieces)", prices: ["99"] },
-      { name: "Medu Vada(4 Pieces)", prices: ["99"] },
-      { name: "Uttapam(1 Piece)", prices: ["149"] },
+      { name: "Gravy Manchurian", prices: ["129", "199"] },
     ],
   },
 

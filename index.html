@@ -393,6 +393,8 @@
         function getPageCapacity(index, sections = currentPage) {
             if (sections[0]?.title === "Sweet Corn Specials 🌽") return 4;
             if (sections[0]?.title === "Garlic Breads & Sides 🥖") return 4;
+            if (sections[0]?.title === "Wraps 🌯") return 4;
+            if (sections[0]?.title === "Egg Specials 🥚") return 4;
             return pageCapacities[index] || 3;
         }
 
