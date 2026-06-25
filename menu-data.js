@@ -399,18 +399,6 @@ const MENU_DATA = [
       { name: "Chocolate Shake", prices: ["__"] },
     ],
   },
-
-  {
-    title: "Stuffed Parathas 🫓",
-    type: "1",
-    labels: [""],
-    image: "images/paratha.png",
-    items: [
-      { name: "Aloo Paratha (2 Pieces)", prices: ["__"] },
-      { name: "Mix Veg Paratha (2 Pieces)", prices: ["__"] },
-      { name: "Paneer Paratha (2 Pieces)", prices: ["__"] },
-    ],
-  },
   {
     title: "Pizza Bread Fusion Combo 🍕🥪🥤",
     type: "3",
