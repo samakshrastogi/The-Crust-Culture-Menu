@@ -358,7 +358,7 @@ const MENU_DATA = [
     
       { name: "Blueberry", prices: ["__"] },
       { name: "Orange", prices: ["__"] },
-      { name: "Green Apple", prices: ["__"] },
+      
       { name: "Virgin", prices: ["__"] },
       { name: "Watermelon", prices: ["__"] },
       
