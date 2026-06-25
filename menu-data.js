@@ -272,7 +272,7 @@ const MENU_DATA = [
     ],
   },
   {
-    title: "Fry Fiesta 🍟",
+    title: "French Fries",
     type: "2",
     labels: ["H", "F"],
     image: "images/fries.png",
