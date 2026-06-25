@@ -214,17 +214,7 @@ const MENU_DATA = [
       { name: "Cheese & Paneer", prices: ["119"] },
     ],
   },
-  {
-    title: "Mumbai Street Special 🌆🍔",
-    type: "1",
-    labels: [""],
-    image: "images/mumbai-street.png",
-    items: [
-      { name: "Vada Pav", prices: ["49"] },
-      { name: "Pav Bhaji (2 Pav)", prices: ["129"] },
-      { name: "Extra Pav", prices: ["49"] },
-    ],
-  },
+ 
   {
     title: "Sweet Corn Specials 🌽",
     type: "1",
@@ -243,6 +233,24 @@ const MENU_DATA = [
       { name: "Creamy", prices: ["69"] },
       { name: "Cheese", prices: ["99"] },
     ],
+  },
+   {
+    title: "Mumbai Street Special 🌆🍔",
+    type: "1",
+    labels: [""],
+    image: "images/mumbai-street.png",
+    items: [
+      { name: "Vada Pav", prices: ["49"] },
+      { name: "Pav Bhaji (2 Pav)", prices: ["129"] },
+      { name: "Extra Pav", prices: ["49"] },
+    ],
+  },
+  {
+    title: "Poha Corner 🍋🌿",
+    type: "1",
+    labels: [""],
+    image: "images/poha.jpg",
+    items: [{ name: "Classic Veg Poha", prices: ["79", "119"] }],
   },
   {
     title: "Maggi Mania 🍜",
@@ -351,13 +359,7 @@ const MENU_DATA = [
       { name: "Egg Fried Rice", prices: ["149"] },
     ],
   },
-  {
-    title: "Poha Corner 🍋🌿",
-    type: "1",
-    labels: [""],
-    image: "images/poha.jpg",
-    items: [{ name: "Classic Veg Poha", prices: ["79", "119"] }],
-  },
+  
   {
     title: "Pasta Specials 🍝",
     type: "1",
